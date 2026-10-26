@@ -60,6 +60,7 @@ jobs:
         run: |
           pip install Pillow numpy
           [ -x tts/runtime/bin/sherpa-onnx-offline-tts ] || LANGS=de bash setup_tts.sh
+          command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; }
           ffmpeg -version | head -1
 
       - name: Render videos and send them to the TikTok inbox
