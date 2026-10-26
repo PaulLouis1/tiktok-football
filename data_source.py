@@ -30,18 +30,25 @@ def _get(path: str, params: dict | None = None) -> dict:
 
 
 def fetch_finished_matches(days_back: int = 1) -> list[dict]:
-    """Alle beendeten Spiele der fünf Ligen der letzten Tage (ein einziger Call)."""
+    """Alle beendeten Spiele der konfigurierten Wettbewerbe der letzten Tage.
+    Ein Call für alle; lehnt die API ihn ab (z. B. Wettbewerb nicht im Tarif), wird je Wettbewerb einzeln abgefragt."""
     today = date.today()
-    data = _get(
-        "/matches",
-        {
-            "competitions": ",".join(config.LEAGUES.keys()),
-            "dateFrom": (today - timedelta(days=days_back)).isoformat(),
-            "dateTo": (today + timedelta(days=1)).isoformat(),
-            "status": "FINISHED",
-        },
-    )
-    return data.get("matches", [])
+    params = {
+        "dateFrom": (today - timedelta(days=days_back)).isoformat(),
+        "dateTo": (today + timedelta(days=1)).isoformat(),
+        "status": "FINISHED",
+    }
+    try:
+        return _get("/matches", {**params, "competitions": ",".join(config.LEAGUES.keys())}).get("matches", [])
+    except RuntimeError as e:
+        print(f"Sammelabfrage fehlgeschlagen ({e}); frage Wettbewerbe einzeln ab")
+    out = []
+    for code in config.LEAGUES:
+        try:
+            out += _get("/matches", {**params, "competitions": code}).get("matches", [])
+        except RuntimeError as e:
+            print(f"{code} übersprungen: {e}")
+    return out
 
 
 def fetch_match_detail(match_id: int) -> dict:
