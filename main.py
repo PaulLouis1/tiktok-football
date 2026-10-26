@@ -36,8 +36,10 @@ def _write_captions(entries: list[str]) -> None:
 
 def process_new_matches(upload: bool) -> None:
     state = ds.load_state()
-    matches = _pending(state)[: config.MAX_PER_RUN]
-    print(f"{len(matches)} neue beendete Spiele")
+    pending = _pending(state)
+    matches = pending[: config.MAX_PER_RUN]
+    print(f"{len(matches)} neue beendete Spiele (offen insgesamt: {len(pending)}); erledigt: {len(state['done'])}")
+    print("IDs:", [x["id"] for x in matches])
     tables: dict[str, list] = {}
     captions: list[str] = []
     for m in matches:
