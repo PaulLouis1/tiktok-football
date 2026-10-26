@@ -1,25 +1,17 @@
-9 neue beendete Spiele (offen insgesamt: 9); erledigt: 13
-IDs: [564720, 560615, 560612, 560619, 560613, 564725, 560621, 564726, 564723]
-Spiel 564720: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564720.mp4 (20.4 s)
-hochgeladen: v_inbox_file~v2.7701046855198623766 SEND_TO_USER_INBOX
-Spiel 560615: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560615.mp4 (21.4 s)
-hochgeladen: v_inbox_file~v2.7701047050342844438 SEND_TO_USER_INBOX
+5 neue beendete Spiele (offen insgesamt: 5); erledigt: 17
+IDs: [560612, 560613, 560619, 564726, 564723]
 Spiel 560612: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560612.mp4 (21.7 s)
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560612.mp4 (21.4 s)
 Fehler bei Spiel 560612: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
-Spiel 560619: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560619.mp4 (20.4 s)
-Fehler bei Spiel 560619: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
 Spiel 560613: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560613.mp4 (22.3 s)
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560613.mp4 (22.2 s)
 Fehler bei Spiel 560613: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
-Spiel 564725: 0:0, übersprungen
-Spiel 560621: 0:0, übersprungen
+Spiel 560619: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560619.mp4 (20.6 s)
+Fehler bei Spiel 560619: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
 Spiel 564726: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564726.mp4 (21.9 s)
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564726.mp4 (22.1 s)
 Fehler bei Spiel 564726: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
 Spiel 564723: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564723.mp4 (21.5 s)
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564723.mp4 (21.6 s)
 Fehler bei Spiel 564723: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
