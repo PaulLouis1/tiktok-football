@@ -135,15 +135,18 @@ def _put_chunks(path: str, upload_url: str, si: dict) -> None:
             ).raise_for_status()
 
 
-def wait_for_status(publish_id: str, timeout_s: int = 180) -> str:
+def wait_for_status(publish_id: str, timeout_s: int = 90) -> str:
     t0 = time.time()
+    last = None
     while time.time() - t0 < timeout_s:
         r = requests.post(
             f"{BASE}/status/fetch/", headers=_headers(), json={"publish_id": publish_id}, timeout=20
         )
+        last = r.text[:300]
         r.raise_for_status()
         status = r.json()["data"]["status"]
         if status in ("PUBLISH_COMPLETE", "SEND_TO_USER_INBOX", "FAILED"):
             return status
         time.sleep(5)
+    print("letzte Statusantwort:", last)
     return "TIMEOUT"
