@@ -46,7 +46,7 @@ def process_new_matches(upload: bool) -> None:
         try:
             detail = ds.fetch_match_detail(mid)
             if code not in tables:
-                tables[code] = ds.fetch_table(code)
+                tables[code] = ds.fetch_table(code) if config.LEAGUES.get(code, {}).get("table", True) else []
             model = ds.to_video_model(m, detail, tables[code])
             sh, sa = model["score"]
             if sh is None or sa is None:

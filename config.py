@@ -17,7 +17,11 @@ LEAGUES = {
     "PD": {"name": "La Liga"},
     "SA": {"name": "Serie A"},
     "FL1": {"name": "Ligue 1"},
+    "CL": {"name": "Champions League", "table": False},  # Ligaphase-Tabelle zu groß, K.-o.-Runde ohne Tabelle
 }
+# Weitere Wettbewerbe per Umgebungsvariable, z. B. EXTRA_COMPETITIONS="EL" (nur wenn der Tarif sie enthält)
+for _code in filter(None, os.environ.get("EXTRA_COMPETITIONS", "").replace(" ", "").split(",")):
+    LEAGUES.setdefault(_code, {"name": {"EL": "Europa League", "ECL": "Conference League"}.get(_code, _code), "table": False})
 
 # --- Sprache -------------------------------------------------------------------
 VIDEO_LANG = os.environ.get("VIDEO_LANG", "en")  # "en" oder "de"

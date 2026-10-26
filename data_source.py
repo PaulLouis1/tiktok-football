@@ -90,6 +90,9 @@ def to_video_model(match: dict, detail: dict | None, table: list[dict] | None) -
             }
         )
 
+    code0 = match["competition"]["code"]
+    if not config.LEAGUES.get(code0, {}).get("table", True):
+        table = []  # z. B. Champions League: keine Tabellenszene
     rows = []
     for row in (table or [])[:5]:
         tid = row["team"]["id"]
@@ -104,6 +107,7 @@ def to_video_model(match: dict, detail: dict | None, table: list[dict] | None) -
 
     ft = match["score"]["fullTime"]
     code = match["competition"]["code"]
+    _fix_own_goal_sides(goals, ft["home"], ft["away"])
     m = {
         "league_code": code,
         "league": config.LEAGUES.get(code, {}).get("name", match["competition"]["name"]),
@@ -118,6 +122,24 @@ def to_video_model(match: dict, detail: dict | None, table: list[dict] | None) -
     }
     m["extras"] = auto_extras(m, match, table or [])
     return m
+
+
+def _fix_own_goal_sides(goals: list[dict], sh: int, sa: int) -> None:
+    """Eigentore: Zählt die API das Tor dem Team des Schützen statt dem Begünstigten, passen die Tore nicht zum Endstand.
+    Dann werden die Eigentore umgedreht (nur wenn danach alles stimmt)."""
+    def counts():
+        return sum(g["side"] == "home" for g in goals), sum(g["side"] == "away" for g in goals)
+
+    if sh is None or sa is None or counts() == (sh, sa):
+        return
+    own = [g for g in goals if g["type"] == "OWN"]
+    if not own:
+        return
+    for g in own:
+        g["side"] = "away" if g["side"] == "home" else "home"
+    if counts() != (sh, sa):  # hat nicht geholfen: zurückdrehen
+        for g in own:
+            g["side"] = "away" if g["side"] == "home" else "home"
 
 
 _ORD_EN = ["", "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh",

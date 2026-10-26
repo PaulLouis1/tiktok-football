@@ -29,6 +29,7 @@ jobs:
       VIDEO_LANG: de
       RENDER_PROCESSES: "4"
       MAX_PER_RUN: "12"
+      EXTRA_COMPETITIONS: ${{ vars.EXTRA_COMPETITIONS }}   # z. B. EL (nur wenn der Tarif sie enthält)
     steps:
       - uses: actions/checkout@v4
 
