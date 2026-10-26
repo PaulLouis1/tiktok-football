@@ -105,6 +105,7 @@ def process_new_matches(upload: bool) -> None:
 def check_new() -> int:
     """Gibt die Zahl offener Spiele aus (für den Zeitplan: ohne neue Spiele wird nichts installiert/gerendert)."""
     n = len(_pending(ds.load_state()))
+    print(f"Wettbewerbe: {','.join(config.LEAGUES)}")
     print(f"{n} offene Spiele")
     out = os.environ.get("GITHUB_OUTPUT")
     if out:
