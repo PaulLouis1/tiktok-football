@@ -1,0 +1,7 @@
+output/
+tts/
+__pycache__/
+*.pyc
+site/
+*.zip
+.env

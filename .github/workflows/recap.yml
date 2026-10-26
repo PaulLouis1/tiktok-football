@@ -1,0 +1,78 @@
+name: recap
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"      # alle 30 Minuten (GitHub kann Läufe um einige Minuten verzögern)
+  workflow_dispatch:
+    inputs:
+      init:
+        description: "Erster Start: aktuelle Spiele nur als erledigt markieren (keine Videos)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: recap
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+      WORKER_URL: ${{ secrets.WORKER_URL }}
+      BOT_KEY: ${{ secrets.BOT_KEY }}
+      VIDEO_LANG: en
+      RENDER_PROCESSES: "4"
+      MAX_PER_RUN: "12"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install light dependencies
+        run: pip install requests
+
+      - name: First start (mark current matches as done)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.init }}
+        run: python main.py --mark-done
+
+      - name: Check for new finished matches
+        id: check
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.init) }}
+        run: python main.py --check
+
+      - name: Restore voice models
+        if: ${{ steps.check.outputs.new != '' && steps.check.outputs.new != '0' }}
+        uses: actions/cache@v4
+        with:
+          path: tts
+          key: tts-en-${{ hashFiles('setup_tts.sh') }}
+
+      - name: Install voice and render dependencies
+        if: ${{ steps.check.outputs.new != '' && steps.check.outputs.new != '0' }}
+        run: |
+          pip install Pillow numpy
+          [ -x tts/runtime/bin/sherpa-onnx-offline-tts ] || LANGS=en bash setup_tts.sh
+          ffmpeg -version | head -1
+
+      - name: Render videos and send them to the TikTok inbox
+        if: ${{ steps.check.outputs.new != '' && steps.check.outputs.new != '0' }}
+        run: python main.py --run --upload
+
+      - name: Save state and captions
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json captions.md 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Update state and captions [skip ci]"
+            git pull --rebase -q
+            git push -q
+          fi

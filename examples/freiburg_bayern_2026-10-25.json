@@ -1,0 +1,222 @@
+{
+  "league_code": "BL1",
+  "league": "Bundesliga",
+  "matchday": 7,
+  "date": "25.10.2026",
+  "home": {"name": "SC Freiburg", "short": "Freiburg", "tla": "SCF", "color": [255, 255, 255]},
+  "away": {"name": "FC Bayern", "name_en": "Bayern Munich", "short": "Bayern", "tla": "FCB", "color": [255, 64, 80]},
+  "score": [1, 3],
+  "sticker": {"de": "TABELLENSPITZE ZURÜCK!", "en": "BACK ON TOP!"},
+  "goals": [
+    {
+      "minute": 16, "injury": null, "side": "away", "type": "REGULAR",
+      "scorer": "Dayot Upamecano", "short": "UPAMECANO",
+      "chain": ["Laimer", "Olise", "Upamecano"],
+      "tag": {"de": "Block, Steilpass, Alleingang", "en": "Block, through ball, one-on-one"}
+    },
+    {
+      "minute": 42, "injury": null, "side": "away", "type": "REGULAR",
+      "scorer": "Serge Gnabry", "short": "GNABRY",
+      "chain": ["Brown", "Gnabry"],
+      "tag": {"de": "Laufduell gewonnen, spitzer Winkel", "en": "Won the race, tight angle"}
+    },
+    {
+      "minute": 82, "injury": null, "side": "home", "type": "OWN",
+      "scorer": "Tom Bischof", "short": "BISCHOF",
+      "chain": ["Makengo", "Bischof"],
+      "tag": {"de": "Dribbling in den Strafraum, abgefälscht", "en": "Dribble into the box, deflected"}
+    },
+    {
+      "minute": 90, "injury": 5, "side": "away", "type": "REGULAR",
+      "scorer": "Michael Olise", "short": "OLISE",
+      "chain": {"de": ["Ballgewinn", "Olise"], "en": ["Turnover", "Olise"]},
+      "tag": {"de": "Backhaus den Ball abgenommen, ins leere Tor", "en": "Took the ball off Backhaus, empty net"}
+    }
+  ],
+  "stats": {
+    "possession": [39, 61],
+    "shots": [12, 16],
+    "on_target": [7, 10],
+    "corners": [5, 6]
+  },
+  "table": [
+    {"pos": 1, "name": "FC Bayern", "name_en": "Bayern Munich", "pts": 17, "hl": 1},
+    {"pos": 2, "name": "Dortmund", "pts": 17, "hl": 2},
+    {"pos": 3, "name": "Freiburg", "pts": 13, "hl": 0},
+    {"pos": 4, "name": "Leverkusen", "pts": 13, "hl": 0},
+    {"pos": 5, "name": "Leipzig", "pts": 12, "hl": 0}
+  ],
+  "next": {
+    "home": {"de": "FC Bayern", "en": "Bayern Munich"},
+    "away": "Dortmund",
+    "when": {"de": "Sa · 31.10. · 18:30 Uhr", "en": "Sat · Oct 31 · 6:30 PM CET"}
+  },
+  "extras": [
+    {
+      "prio": 1, "order": 0.5, "side": "away",
+      "label": {"de": "BAYERN-SORGEN", "en": "BAYERN WORRIES"},
+      "title": {"de": "OHNE KOMPANY", "en": "WITHOUT KOMPANY"},
+      "lines": {
+        "de": ["Co-Trainer Aaron Danks an der Seitenlinie", "Mehrere Ausfälle, u. a. Neuer und Kim"],
+        "en": ["Assistant Aaron Danks in charge", "Several absences, incl. Neuer and Kim"]
+      },
+      "speech": {
+        "de": "Die Vorzeichen waren schwierig: Kompany krank, Co-Trainer Danks an der Seitenlinie, und mehrere Spieler fielen aus.",
+        "en": "The build-up was tough: Kompany ill, assistant Danks in charge, and several players out."
+      },
+      "caption": {
+        "de": "Die Vorzeichen waren schwierig: Kompany krank, Co-Trainer Danks an der Seitenlinie, und mehrere Spieler fielen aus.",
+        "en": "The build-up was tough: Kompany ill, assistant Danks in charge, and several players out."
+      }
+    },
+    {
+      "prio": 2, "minute": 34, "side": "away",
+      "label": {"de": "FAST!", "en": "SO CLOSE!"}, "title": "BROWN",
+      "lines": {
+        "de": ["Schuss mit dem schwächeren Fuß", "Backhaus lenkt um den Pfosten"],
+        "en": ["Shot with his weaker foot", "Backhaus pushes it round the post"]
+      },
+      "speech": {
+        "de": "Minute vierunddreißig: Brown zieht mit seinem schwächeren Fuß ab, Backhaus lenkt den Ball gerade noch um den Pfosten.",
+        "en": "Minute thirty-four: Brown shoots with his weaker foot, and Backhaus only just pushes it around the post."
+      },
+      "caption": {
+        "de": "34. Minute: Brown zieht mit seinem schwächeren Fuß ab, Backhaus lenkt den Ball gerade noch um den Pfosten.",
+        "en": "34th minute: Brown shoots with his weaker foot, and Backhaus only just pushes it around the post."
+      }
+    },
+    {
+      "prio": 3, "minute": 57, "side": "away",
+      "label": {"de": "FAST!", "en": "SO CLOSE!"}, "title": "KANE",
+      "lines": {"de": ["Kopfball knapp am Tor vorbei"], "en": ["Header just misses the target"]},
+      "speech": {
+        "de": "Minute siebenundfünfzig: Kane köpft nur ganz knapp am Tor vorbei.",
+        "en": "Minute fifty-seven: Kane's header only just misses the target."
+      },
+      "caption": {
+        "de": "57. Minute: Kane köpft nur ganz knapp am Tor vorbei.",
+        "en": "57th minute: Kane's header only just misses the target."
+      }
+    },
+    {
+      "prio": 4, "order": 101.0, "side": "away",
+      "label": {"de": "AUFFÄLLIGSTER SPIELER", "en": "STANDOUT PLAYER"}, "title": "OLISE",
+      "lines": {
+        "de": ["Schickt Upamecano zur Führung auf die Reise", "Trifft in der Nachspielzeit selbst"],
+        "en": ["Sets up the opener for Upamecano", "Scores himself in stoppage time"]
+      },
+      "speech": {
+        "de": "Auffälligster Spieler: Olise. Er schickt Upamecano zur Führung auf die Reise und trifft in der Nachspielzeit selbst.",
+        "en": "Standout player: Olise. He sets up the opener for Upamecano and scores himself in stoppage time."
+      },
+      "caption": {
+        "de": "Auffälligster Spieler: Olise. Er schickt Upamecano zur Führung auf die Reise und trifft in der Nachspielzeit selbst.",
+        "en": "Standout player: Olise. He sets up the opener for Upamecano and scores himself in stoppage time."
+      }
+    },
+    {
+      "prio": 5, "minute": 62, "side": "home",
+      "label": {"de": "PARADE!", "en": "BIG SAVE!"}, "title": "BACKHAUS",
+      "lines": {
+        "de": ["Flachschuss von Saibari", "Gerade noch zur Ecke gelenkt"],
+        "en": ["Low shot from Saibari", "Pushed behind for a corner"]
+      },
+      "speech": {
+        "de": "Minute zweiundsechzig: Backhaus kratzt einen Flachschuss von Saibari gerade noch zur Ecke.",
+        "en": "Minute sixty-two: Backhaus scrapes Saibari's low shot away for a corner."
+      },
+      "caption": {
+        "de": "62. Minute: Backhaus kratzt einen Flachschuss von Saibari gerade noch zur Ecke.",
+        "en": "62nd minute: Backhaus scrapes Saibari's low shot away for a corner."
+      }
+    },
+    {
+      "prio": 6, "after_minute": 82, "order": 85.0, "side": "away",
+      "minute_text": {"de": "ENDSPURT", "en": "FINAL PUSH"},
+      "label": {"de": "PARADE!", "en": "BIG SAVES!"}, "title": "URBIG",
+      "lines": {"de": ["Mehrfach in höchster Not geklärt"], "en": ["Comes up big several times"]},
+      "speech": {
+        "de": "Nach dem Anschlusstreffer muss Urbig mehrfach in höchster Not klären.",
+        "en": "After Freiburg pull one back, Urbig has to come up big several times."
+      },
+      "caption": {
+        "de": "Nach dem Anschlusstreffer muss Urbig mehrfach in höchster Not klären.",
+        "en": "After Freiburg pull one back, Urbig has to come up big several times."
+      }
+    }
+  ],
+  "script": {
+    "de": {
+      "hook": {
+        "speech": "Ohne Trainer Kompany gewinnt Bayern in Freiburg drei zu eins und ist wieder vorn. Das waren die Tore!",
+        "caption": "Ohne Trainer Kompany gewinnt Bayern in Freiburg 3:1 und ist wieder vorn. Das waren die Tore!"
+      },
+      "goals": [
+        {
+          "speech": "Minute sechzehn: Upamecano blockt am eigenen Strafraum, marschiert selbst nach vorn und trifft allein vorm Tor.",
+          "caption": "16. Minute: Upamecano blockt am eigenen Strafraum, marschiert selbst nach vorn und trifft allein vorm Tor."
+        },
+        {
+          "speech": "Minute zweiundvierzig: Brown schickt Gnabry, der trifft aus spitzem Winkel durch die Beine von Backhaus.",
+          "caption": "42. Minute: Brown schickt Gnabry, der trifft aus spitzem Winkel durch die Beine von Backhaus."
+        },
+        {
+          "speech": "Minute zweiundachtzig: Makengo dribbelt in den Strafraum, Bischof fälscht ins eigene Tor. Freiburg verkürzt!",
+          "caption": "82. Minute: Makengo dribbelt in den Strafraum, Bischof fälscht ins eigene Tor. Freiburg verkürzt!"
+        },
+        {
+          "speech": "Nachspielzeit: Nach einem Ballverlust nimmt Olise Torwart Backhaus den Ball ab und schiebt ins leere Tor.",
+          "caption": "Nachspielzeit: Nach einem Ballverlust nimmt Olise Torwart Backhaus den Ball ab und schiebt ins leere Tor."
+        }
+      ],
+      "stats": {
+        "speech": "Bayern hatte die Kontrolle: einundsechzig Prozent Ballbesitz und sechzehn Schüsse gegen zwölf.",
+        "caption": "Bayern hatte die Kontrolle: 61 Prozent Ballbesitz und 16 Schüsse gegen 12."
+      },
+      "table": {
+        "speech": "Siebzehn Punkte, gleichauf mit Dortmund. Und die kommen schon am Samstag!",
+        "caption": "17 Punkte, gleichauf mit Dortmund. Und die kommen schon am Samstag!"
+      },
+      "outro": {
+        "speech": "Wer gewinnt das Topspiel? Schreib es in die Kommentare!",
+        "caption": "Wer gewinnt das Topspiel? Schreib es in die Kommentare!"
+      }
+    },
+    "en": {
+      "hook": {
+        "speech": "Without coach Kompany, Bayern win three-one at Freiburg and go back to the top. Here are the goals!",
+        "caption": "Without coach Kompany, Bayern win 3-1 at Freiburg and go back to the top. Here are the goals!"
+      },
+      "goals": [
+        {
+          "speech": "Minute sixteen: Upamecano blocks a shot, Olise plays him in, and he scores one-on-one.",
+          "caption": "16th minute: Upamecano blocks a shot, Olise plays him in, and he scores one-on-one."
+        },
+        {
+          "speech": "Minute forty-two: Brown finds Gnabry, who wins the race and scores through the legs of Backhaus.",
+          "caption": "42nd minute: Brown finds Gnabry, who wins the race and scores through the legs of Backhaus."
+        },
+        {
+          "speech": "Minute eighty-two: Makengo dribbles in, and Bischof deflects it into his own net. Freiburg pull one back!",
+          "caption": "82nd minute: Makengo dribbles in, and Bischof deflects it into his own net. Freiburg pull one back!"
+        },
+        {
+          "speech": "Stoppage time: Olise takes the ball off keeper Backhaus and slides it into the empty net.",
+          "caption": "Stoppage time: Olise takes the ball off keeper Backhaus and slides it into the empty net."
+        }
+      ],
+      "stats": {
+        "speech": "Bayern controlled the game: sixty-one percent possession and sixteen shots to twelve.",
+        "caption": "Bayern controlled the game: 61 percent possession and 16 shots to 12."
+      },
+      "table": {
+        "speech": "Seventeen points, level with Dortmund. And Dortmund visit Munich on Saturday!",
+        "caption": "17 points, level with Dortmund. And Dortmund visit Munich on Saturday!"
+      },
+      "outro": {
+        "speech": "Who wins the big one? Drop your pick in the comments!",
+        "caption": "Who wins the big one? Drop your pick in the comments!"
+      }
+    }
+  }
+}

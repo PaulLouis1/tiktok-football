@@ -1,0 +1,4 @@
+requests
+Pillow
+numpy
+# FFmpeg muss separat installiert sein (apt install ffmpeg / brew install ffmpeg)
