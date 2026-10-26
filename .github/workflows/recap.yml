@@ -9,6 +9,14 @@ on:
         description: "Erster Start: aktuelle Spiele nur als erledigt markieren (keine Videos)"
         type: boolean
         default: false
+      reopen:
+        description: "Nachholen: Ligen-Codes, deren letzter Spieltag erneut verarbeitet wird (z. B. BL1,PL,PD)"
+        type: string
+        default: ""
+      skip:
+        description: "Match-IDs, die beim Nachholen ausgelassen werden (Komma-getrennt)"
+        type: string
+        default: ""
 
 concurrency:
   group: recap
@@ -43,6 +51,10 @@ jobs:
       - name: First start (mark current matches as done)
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.init }}
         run: python main.py --mark-done
+
+      - name: Reopen last matchday (catch-up)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.reopen != '' }}
+        run: python main.py --reopen "${{ inputs.reopen }}" --skip "${{ inputs.skip }}"
 
       - name: Check for new finished matches
         id: check

@@ -114,6 +114,26 @@ def check_new() -> int:
     return n
 
 
+def reopen(codes: str, skip: str = "") -> None:
+    """Spiele des letzten (höchsten) abgeschlossenen Spieltags der genannten Ligen wieder freigeben (Nachholen)."""
+    state = ds.load_state()
+    wanted = [c.strip() for c in codes.split(",") if c.strip()]
+    skip_ids = {int(x) for x in skip.replace(" ", "").split(",") if x}
+    matches = ds.fetch_finished_matches(days_back=7)
+    for code in wanted:
+        ms = [x for x in matches if x["competition"]["code"] == code and x.get("matchday") is not None]
+        if not ms:
+            print(f"{code}: keine beendeten Spiele in den letzten 7 Tagen")
+            continue
+        top = max(x["matchday"] for x in ms)
+        ids = [x["id"] for x in ms if x["matchday"] == top and x["id"] not in skip_ids]
+        for i in ids:
+            state["done"].discard(i)
+            state["tries"].pop(i, None)
+        print(f"{code}: Spieltag {top}, {len(ids)} Spiele wieder freigegeben")
+    ds.save_state(state)
+
+
 def mark_done() -> None:
     """Alle aktuell beendeten Spiele als erledigt markieren (Startpunkt, ohne Videos zu erzeugen)."""
     state = ds.load_state()
@@ -130,6 +150,8 @@ def main():
     ap.add_argument("--loop", action="store_true")
     ap.add_argument("--upload", action="store_true")
     ap.add_argument("--check", action="store_true", help="nur zählen, wie viele neue Spiele offen sind")
+    ap.add_argument("--reopen", default=None, help="Ligen-Codes (z. B. BL1,PL,PD): letzten Spieltag erneut verarbeiten")
+    ap.add_argument("--skip", default="", help="Match-IDs, die dabei ausgelassen werden")
     ap.add_argument("--mark-done", action="store_true", help="aktuelle Spiele als erledigt markieren (Startpunkt)")
     ap.add_argument("--lang", choices=["en", "de"], default=None, help="Sprache des Videos (Standard: en)")
     a = ap.parse_args()
@@ -147,6 +169,8 @@ def main():
         print(f"Dauer {info['duration']:.1f} s, Lautheit {info['lufs']:.1f} LUFS")
         for s in info["scenes"]:
             print("  ", s)
+    elif a.reopen is not None:
+        reopen(a.reopen, a.skip)
     elif a.check:
         check_new()
     elif a.mark_done:
