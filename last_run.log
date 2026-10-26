@@ -1,3 +1,5 @@
 2 neue beendete Spiele
-Spiel 565835: Tore fehlen noch in den Daten (Versuch 1)
-Spiel 565836: Tore fehlen noch in den Daten (Versuch 1)
+Spiel 565835: keine Tordaten, es wird ein Video ohne Tore erzeugt
+Fehler bei Spiel 565835: [Errno 2] No such file or directory: 'ffmpeg'
+Spiel 565836: keine Tordaten, es wird ein Video ohne Tore erzeugt
+Fehler bei Spiel 565836: [Errno 2] No such file or directory: 'ffmpeg'
