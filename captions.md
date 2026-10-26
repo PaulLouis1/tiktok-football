@@ -1,5 +1,17 @@
 # Captions for new drafts (newest first)
 
+**Athletic Club 4-0 Getafe CF** (La Liga)
+
+```
+Athletic Club 4:0 Getafe CF | La Liga Highlights #fussball #laliga
+```
+
+**Manchester United FC 0-3 AFC Bournemouth** (Premier League)
+
+```
+Manchester United FC 0:3 AFC Bournemouth | Premier League Highlights #fussball #premierleague
+```
+
 **TSG 1899 Hoffenheim 3-0 Bayer 04 Leverkusen** (Bundesliga)
 
 ```
