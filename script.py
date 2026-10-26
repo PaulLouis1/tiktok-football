@@ -64,8 +64,8 @@ def default_script(m: dict) -> dict:
         s = {
             "hook": {
                 "speech": (f"{m['league']}, matchday {en_num(int(m['matchday']))}: " if m.get("matchday") else f"{m['league']}: ")
-                + f"{home} versus {away} ends {en_num(sh)} to {en_num(sa)}. Here are the goals!",
-                "caption": f"{home} {sh}-{sa} {away}. Here are the goals!" if sh + sa else f"{home} {sh}-{sa} {away}. No goals tonight.",
+                + f"{home} versus {away} ends {en_num(sh)} to {en_num(sa)}. " + ("Here are the goals!" if m["goals"] else "Here is the recap!"),
+                "caption": f"{home} {sh}-{sa} {away}. " + ("Here are the goals!" if m["goals"] else "Here is the recap!"),
             },
             "goals": [],
             "stats": {"speech": "And here are the numbers from the match.", "caption": "The numbers from the match"},
@@ -79,8 +79,8 @@ def default_script(m: dict) -> dict:
         s = {
             "hook": {
                 "speech": (f"{m['league']}, {de_num(int(m['matchday']))}. Spieltag: " if m.get("matchday") else f"{m['league']}: ")
-                + f"{home} gegen {away}: {de_num(sh)} zu {de_num(sa)}. Das waren die Tore!",
-                "caption": f"{home} {sh}:{sa} {away}. Das waren die Tore!",
+                + f"{home} gegen {away}: {de_num(sh)} zu {de_num(sa)}. " + ("Das waren die Tore!" if m["goals"] else "Das war das Spiel!"),
+                "caption": f"{home} {sh}:{sa} {away}. " + ("Das waren die Tore!" if m["goals"] else "Das war das Spiel!"),
             },
             "goals": [],
             "stats": {"speech": "Und so sahen die Zahlen zum Spiel aus.", "caption": "Die Zahlen zum Spiel"},

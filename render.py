@@ -272,6 +272,8 @@ def scene_outro(img, d, m, sc, t, T):
 
 def _score_for(m, info):
     """Spielstand passend zur Zusatzszene: nach Minute, sonst Endstand."""
+    if info.get("score"):
+        return tuple(info["score"])
     mm = info.get("minute") if info.get("minute") is not None else info.get("after_minute")
     if mm is None:
         return tuple(m["score"])

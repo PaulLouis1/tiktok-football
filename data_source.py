@@ -133,7 +133,7 @@ def auto_extras(m: dict, match: dict, full_table: list[dict]) -> list[dict]:
     ex = []
     h, a = m["home"]["short"], m["away"]["short"]
     ht = ((match.get("score") or {}).get("halfTime")) or {}
-    if ht.get("home") is not None and ht.get("away") is not None and m["goals"]:
+    if ht.get("home") is not None and ht.get("away") is not None:
         hh, ha = ht["home"], ht["away"]
         lead = "home" if hh > ha else "away" if ha > hh else None
         if hh == ha:
@@ -148,7 +148,7 @@ def auto_extras(m: dict, match: dict, full_table: list[dict]) -> list[dict]:
             lines_en = [f"{ln} ahead at the break"]
             lines_de = [f"{ln} führt zur Pause"]
         ex.append({
-            "prio": 1, "order": 45.5, "after_minute": 45, "side": lead,
+            "prio": 1, "order": 45.5, "after_minute": 45, "score": [hh, ha], "side": lead,
             "label": {"en": "HALF-TIME", "de": "HALBZEIT"},
             "title": f"{hh}:{ha}",
             "lines": {"en": lines_en, "de": lines_de},

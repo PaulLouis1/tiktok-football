@@ -25,6 +25,7 @@ jobs:
       FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
       WORKER_URL: ${{ secrets.WORKER_URL }}
       BOT_KEY: ${{ secrets.BOT_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: Tore per Websuche ergänzen
       VIDEO_LANG: de
       RENDER_PROCESSES: "4"
       MAX_PER_RUN: "12"

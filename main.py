@@ -52,9 +52,19 @@ def process_new_matches(upload: bool) -> None:
             if sh is None or sa is None:
                 raise RuntimeError("kein Endstand in den Daten")
             if (sh + sa) > 0 and not model["goals"]:
-                state["tries"][mid] = state["tries"].get(mid, 0) + 1
-                print(f"Spiel {mid}: Tore fehlen noch in den Daten (Versuch {state['tries'][mid]})")
-                continue
+                try:
+                    import enrich
+
+                    res = enrich.enrich(model, config.VIDEO_LANG)
+                except Exception as e:  # Websuche/API-Fehler dürfen das Video nicht verhindern
+                    print(f"Spiel {mid}: Ergänzung fehlgeschlagen ({e})")
+                    res = None
+                if res:
+                    model["goals"], extra = res
+                    model["extras"] = model["extras"] + extra
+                    print(f"Spiel {mid}: {len(model['goals'])} Tore und {len(extra)} Extras ergänzt")
+                else:
+                    print(f"Spiel {mid}: keine Tordaten, es wird ein Video ohne Tore erzeugt")
             if sh + sa == 0 and os.environ.get("SKIP_GOALLESS", "1") == "1":
                 print(f"Spiel {mid}: 0:0, übersprungen")
                 state["done"].add(mid)

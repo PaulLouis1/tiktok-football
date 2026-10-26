@@ -61,6 +61,10 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 STATE_FILE = os.path.join(BASE_DIR, "state.json")  # bereits verarbeitete Match-IDs
 EXAMPLE_MATCH = os.path.join(BASE_DIR, "examples", "freiburg_bayern_2026-10-25.json")
 
+# --- Tore/Zusatzszenen per Sprachmodell (optional; ohne Key: Videos ohne Tore) ---------
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+ENRICH_MODEL = os.environ.get("ENRICH_MODEL", "claude-sonnet-5-5")
+
 # --- Zeitplan-Betrieb ------------------------------------------------------------
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "12"))   # höchstens so viele Videos pro Lauf
 MAX_TRIES = int(os.environ.get("MAX_TRIES", "6"))        # Spiele ohne Tordaten so oft erneut versuchen
