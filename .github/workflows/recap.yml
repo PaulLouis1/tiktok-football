@@ -47,7 +47,9 @@ jobs:
       - name: Check for new finished matches
         id: check
         if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.init) }}
-        run: python main.py --check
+        run: |
+          set -o pipefail
+          python main.py --check 2>&1 | tee check.log
 
       - name: Restore voice models
         if: ${{ steps.check.outputs.new != '' && steps.check.outputs.new != '0' }}
@@ -75,7 +77,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in state.json captions.md last_run.log; do [ -f "$f" ] && git add "$f"; done
+          for f in state.json captions.md last_run.log check.log; do [ -f "$f" ] && git add "$f"; done
           if ! git diff --cached --quiet; then
             git commit -m "Update state and captions [skip ci]"
             git pull --rebase -q
