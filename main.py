@@ -12,7 +12,6 @@ import time
 
 import config
 import data_source as ds
-import render
 from i18n import ui
 
 
@@ -61,6 +60,8 @@ def process_new_matches(upload: bool) -> None:
                 state["done"].add(mid)
                 continue
             out = os.path.join(config.OUTPUT_DIR, f"{code}_{mid}.mp4")
+            import render  # erst hier: braucht Pillow/numpy, die der leichte Check-Schritt nicht installiert hat
+
             info = render.produce(model, out)
             print("gerendert:", out, f"({info['duration']:.1f} s)")
             title = ui(
@@ -128,6 +129,8 @@ def main():
         with open(config.EXAMPLE_MATCH, encoding="utf-8") as f:
             m = json.load(f)
         out = os.path.join(config.OUTPUT_DIR, f"freiburg_bayern_{config.VIDEO_LANG}.mp4")
+        import render
+
         info = render.produce(m, out, preview_dir=os.path.join(config.OUTPUT_DIR, "preview"))
         print("Video:", out)
         print(f"Dauer {info['duration']:.1f} s, Lautheit {info['lufs']:.1f} LUFS")

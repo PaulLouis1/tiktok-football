@@ -24,7 +24,8 @@ def _get(path: str, params: dict | None = None) -> dict:
         timeout=20,
     )
     _last_call = time.time()
-    r.raise_for_status()
+    if r.status_code >= 400:
+        raise RuntimeError(f"football-data.org antwortete {r.status_code}: {r.text[:200]}")
     return r.json()
 
 
