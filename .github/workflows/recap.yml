@@ -25,7 +25,7 @@ jobs:
       FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
       WORKER_URL: ${{ secrets.WORKER_URL }}
       BOT_KEY: ${{ secrets.BOT_KEY }}
-      VIDEO_LANG: en
+      VIDEO_LANG: de
       RENDER_PROCESSES: "4"
       MAX_PER_RUN: "12"
     steps:
@@ -52,25 +52,27 @@ jobs:
         uses: actions/cache@v4
         with:
           path: tts
-          key: tts-en-${{ hashFiles('setup_tts.sh') }}
+          key: tts-de-${{ hashFiles('setup_tts.sh') }}
 
       - name: Install voice and render dependencies
         if: ${{ steps.check.outputs.new != '' && steps.check.outputs.new != '0' }}
         run: |
           pip install Pillow numpy
-          [ -x tts/runtime/bin/sherpa-onnx-offline-tts ] || LANGS=en bash setup_tts.sh
+          [ -x tts/runtime/bin/sherpa-onnx-offline-tts ] || LANGS=de bash setup_tts.sh
           ffmpeg -version | head -1
 
       - name: Render videos and send them to the TikTok inbox
         if: ${{ steps.check.outputs.new != '' && steps.check.outputs.new != '0' }}
-        run: python main.py --run --upload
+        run: |
+          set -o pipefail
+          python main.py --run --upload 2>&1 | tee last_run.log
 
       - name: Save state and captions
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in state.json captions.md; do [ -f "$f" ] && git add "$f"; done
+          for f in state.json captions.md last_run.log; do [ -f "$f" ] && git add "$f"; done
           if ! git diff --cached --quiet; then
             git commit -m "Update state and captions [skip ci]"
             git pull --rebase -q
