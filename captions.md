@@ -1,5 +1,17 @@
 # Captions for new drafts (newest first)
 
+**AS Roma 4-2 Cagliari Calcio** (Serie A)
+
+```
+AS Roma 4:2 Cagliari Calcio | Serie A Highlights #fussball #seriea
+```
+
+**Torino FC 1-3 Como 1907** (Serie A)
+
+```
+Torino FC 1:3 Como 1907 | Serie A Highlights #fussball #seriea
+```
+
 **US Sassuolo Calcio 2-6 SS Lazio** (Serie A)
 
 ```
