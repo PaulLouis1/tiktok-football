@@ -1,5 +1,11 @@
 # Captions for new drafts (newest first)
 
+**US Sassuolo Calcio 2-6 SS Lazio** (Serie A)
+
+```
+US Sassuolo Calcio 2:6 SS Lazio | Serie A Highlights #fussball #seriea
+```
+
 **Paris Saint-Germain FC 2-0 Olympique Lyonnais** (Ligue 1)
 
 ```

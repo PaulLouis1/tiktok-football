@@ -1,10 +1,6 @@
-2 neue beendete Spiele (offen insgesamt: 2); erledigt: 17
-IDs: [559648, 564721]
-Spiel 559648: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/FL1_559648.mp4 (21.8 s)
-letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6135672},"error":{"code":"ok","message":"","log_id":"20261027085753E51260ECBD2538A170F8"}}
-hochgeladen: v_inbox_file~v2.7701268455974471703 TIMEOUT
-Spiel 564721: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564721.mp4 (22.1 s)
-letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6218319},"error":{"code":"ok","message":"","log_id":"20261027090001769BF32F13FE3B91BC89"}}
-hochgeladen: v_inbox_file~v2.7701269200056174614 TIMEOUT
+1 neue beendete Spiele (offen insgesamt: 1); erledigt: 19
+IDs: [558556]
+Spiel 558556: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558556.mp4 (20.8 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":5929263},"error":{"code":"ok","message":"","log_id":"20261027200425DCCA2928D4A1671C718F"}}
+hochgeladen: v_inbox_file~v2.7701440573806299158 TIMEOUT
