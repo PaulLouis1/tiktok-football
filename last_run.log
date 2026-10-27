@@ -1,22 +1,7 @@
-7 neue beendete Spiele (offen insgesamt: 7); erledigt: 17
-IDs: [560613, 560619, 560612, 564726, 564723, 559648, 564721]
-Spiel 560613: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560613.mp4 (22.3 s)
-Fehler bei Spiel 560613: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
-Spiel 560619: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560619.mp4 (20.8 s)
-Fehler bei Spiel 560619: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
-Spiel 560612: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560612.mp4 (21.0 s)
-Fehler bei Spiel 560612: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
-Spiel 564726: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564726.mp4 (21.8 s)
-Fehler bei Spiel 564726: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
-Spiel 564723: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564723.mp4 (22.1 s)
-Fehler bei Spiel 564723: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
+2 neue beendete Spiele (offen insgesamt: 2); erledigt: 17
+IDs: [559648, 564721]
 Spiel 559648: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/FL1_559648.mp4 (22.2 s)
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/FL1_559648.mp4 (22.4 s)
 Fehler bei Spiel 559648: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
 Spiel 564721: keine Tordaten, es wird ein Video ohne Tore erzeugt
 gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564721.mp4 (21.3 s)
