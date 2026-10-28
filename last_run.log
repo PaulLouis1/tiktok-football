@@ -1,9 +1,19 @@
-2 neue beendete Spiele (offen insgesamt: 2); erledigt: 20
-IDs: [558555, 558557]
-Spiel 558555: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558555.mp4 (21.1 s)
-hochgeladen: v_inbox_file~v2.7701496787353602070 SEND_TO_USER_INBOX
-Spiel 558557: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558557.mp4 (23.6 s)
-letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6526733},"error":{"code":"ok","message":"","log_id":"202610272346096BD2A31A97204A0FE026"}}
-hochgeladen: v_inbox_file~v2.7701496787353749526 TIMEOUT
+5 neue beendete Spiele (offen insgesamt: 5); erledigt: 22
+IDs: [558550, 558553, 558549, 558552, 558554]
+Spiel 558550: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558550.mp4 (23.0 s)
+letzte Statusantwort: {"data":{"uploaded_bytes":6464337,"status":"PROCESSING_UPLOAD"},"error":{"code":"ok","message":"","log_id":"2026102821553910652EBFCBD1810C11A6"}}
+hochgeladen: v_inbox_file~v2.7701840119631841303 TIMEOUT
+Spiel 558553: 0:0, übersprungen
+Spiel 558549: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558549.mp4 (21.0 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":5914821},"error":{"code":"ok","message":"","log_id":"20261028215746009DE303CAD629090A87"}}
+hochgeladen: v_inbox_file~v2.7701840559522367510 TIMEOUT
+Spiel 558552: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558552.mp4 (20.6 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":5823639},"error":{"code":"ok","message":"","log_id":"20261028215949FC8CD16FC295150F993F"}}
+hochgeladen: v_inbox_file~v2.7701841155893626902 TIMEOUT
+Spiel 558554: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558554.mp4 (21.5 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6122255},"error":{"code":"ok","message":"","log_id":"2026102822014900362DE85BE37007E0DD"}}
+hochgeladen: v_inbox_file~v2.7701841704638449686 TIMEOUT
