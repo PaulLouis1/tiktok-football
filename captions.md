@@ -1,5 +1,11 @@
 # Captions for new drafts (newest first)
 
+**Frosinone Calcio 5-1 US Lecce** (Serie A)
+
+```
+Frosinone Calcio 5:1 US Lecce | Serie A Highlights #fussball #seriea
+```
+
 **Venezia FC 0-2 FC Internazionale Milano** (Serie A)
 
 ```
