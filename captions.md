@@ -1,5 +1,35 @@
 # Captions for new drafts (newest first)
 
+**OGC Nice 5-2 Stade Rennais FC 1901** (Ligue 1)
+
+```
+OGC Nice 5:2 Stade Rennais FC 1901 | Ligue 1 Highlights #fussball #ligue1
+```
+
+**Le Havre AC 1-5 Paris Saint-Germain FC** (Ligue 1)
+
+```
+Le Havre AC 1:5 Paris Saint-Germain FC | Ligue 1 Highlights #fussball #ligue1
+```
+
+**SV 07 Elversberg 4-1 1. FSV Mainz 05** (Bundesliga)
+
+```
+SV 07 Elversberg 4:1 1. FSV Mainz 05 | Bundesliga Highlights #fussball #bundesliga
+```
+
+**Villarreal CF 0-1 RCD Espanyol de Barcelona** (La Liga)
+
+```
+Villarreal CF 0:1 RCD Espanyol de Barcelona | La Liga Highlights #fussball #laliga
+```
+
+**Lille OSC 1-0 Racing Club de Lens** (Ligue 1)
+
+```
+Lille OSC 1:0 Racing Club de Lens | Ligue 1 Highlights #fussball #ligue1
+```
+
 **ACF Fiorentina 2-2 Atalanta BC** (Serie A)
 
 ```
