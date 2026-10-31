@@ -1,5 +1,17 @@
 # Captions for new drafts (newest first)
 
+**Chelsea FC 2-0 Manchester United FC** (Premier League)
+
+```
+Chelsea FC 2:0 Manchester United FC | Premier League Highlights #fussball #premierleague
+```
+
+**Levante UD 0-2 Club Atlético de Madrid** (La Liga)
+
+```
+Levante UD 0:2 Club Atlético de Madrid | La Liga Highlights #fussball #laliga
+```
+
 **OGC Nice 5-2 Stade Rennais FC 1901** (Ligue 1)
 
 ```
