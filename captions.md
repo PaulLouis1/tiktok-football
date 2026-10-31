@@ -1,5 +1,23 @@
 # Captions for new drafts (newest first)
 
+**Bologna FC 1909 2-1 AC Monza** (Serie A)
+
+```
+Bologna FC 1909 2:1 AC Monza | Serie A Highlights #fussball #seriea
+```
+
+**Bayer 04 Leverkusen 2-4 VfB Stuttgart** (Bundesliga)
+
+```
+Bayer 04 Leverkusen 2:4 VfB Stuttgart | Bundesliga Highlights #fussball #bundesliga
+```
+
+**FC Augsburg 1-2 SC Freiburg** (Bundesliga)
+
+```
+FC Augsburg 1:2 SC Freiburg | Bundesliga Highlights #fussball #bundesliga
+```
+
 **Chelsea FC 2-0 Manchester United FC** (Premier League)
 
 ```
