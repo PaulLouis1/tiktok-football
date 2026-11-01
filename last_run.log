@@ -1,38 +1,40 @@
-12 neue beendete Spiele (offen insgesamt: 16); erledigt: 40
-IDs: [565843, 565840, 560624, 560630, 560629, 560625, 560623, 564735, 558542, 564736, 565845, 560627]
-Spiel 565843: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565843.mp4 (21.4 s)
-Fehler bei Spiel 565843: Token vom Worker nicht erhalten (400): {"error":"refresh_failed"}
+12 neue beendete Spiele (offen insgesamt: 29); erledigt: 40
+IDs: [565840, 565843, 560623, 560629, 560625, 560624, 560630, 564735, 558542, 560627, 565845, 564736]
 Spiel 565840: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565840.mp4 (20.7 s)
-Fehler bei Spiel 565840: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565840.mp4 (21.2 s)
+Fehler bei Spiel 565840: Token vom Worker nicht erhalten (400): {"error":"refresh_failed"}
+Spiel 565843: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565843.mp4 (21.3 s)
+Fehler bei Spiel 565843: 503 Server Error: Service Unavailable for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
+Spiel 560623: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560623.mp4 (21.5 s)
+Fehler bei Spiel 560623: 503 Server Error: Service Unavailable for url: https://open.tiktokapis.com/v2/post/publish/status/fetch/
+Spiel 560629: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560629.mp4 (21.0 s)
+Fehler bei Spiel 560629: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
+Spiel 560625: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560625.mp4 (22.0 s)
+Fehler bei Spiel 560625: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/status/fetch/
 Spiel 560624: keine Tordaten, es wird ein Video ohne Tore erzeugt
 gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560624.mp4 (21.2 s)
-Fehler bei Spiel 560624: 503 Server Error: Service Unavailable for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6080238},"error":{"code":"ok","message":"","log_id":"20261101205403A92775E1DBE0BE0D9335"}}
+hochgeladen: v_inbox_file~v2.7703308458740762646 TIMEOUT
 Spiel 560630: keine Tordaten, es wird ein Video ohne Tore erzeugt
 gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560630.mp4 (21.1 s)
-Fehler bei Spiel 560630: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/status/fetch/
-Spiel 560629: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560629.mp4 (21.3 s)
-Fehler bei Spiel 560629: 503 Server Error: Service Unavailable for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
-Spiel 560625: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560625.mp4 (21.7 s)
-Fehler bei Spiel 560625: 503 Server Error: Service Unavailable for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
-Spiel 560623: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560623.mp4 (21.3 s)
-Fehler bei Spiel 560623: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
+Fehler bei Spiel 560630: 404 Client Error: Not Found for url: https://open-upload-i18n.tiktokapis.com/upload?upload_id=7703308992340445206&upload_token=27479af3-76c3-1410-4920-8c0821dded9d
 Spiel 564735: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564735.mp4 (21.3 s)
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564735.mp4 (21.6 s)
 Fehler bei Spiel 564735: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
 Spiel 558542: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558542.mp4 (20.9 s)
-Fehler bei Spiel 558542: 503 Server Error: Service Unavailable for url: https://open.tiktokapis.com/v2/post/publish/status/fetch/
-Spiel 564736: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564736.mp4 (21.3 s)
-Fehler bei Spiel 564736: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
-Spiel 565845: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565845.mp4 (20.3 s)
-Fehler bei Spiel 565845: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558542.mp4 (21.0 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":5960710},"error":{"code":"ok","message":"","log_id":"20261101205721AE45FF0D53A7D9149A60"}}
+hochgeladen: v_inbox_file~v2.7703309311774574614 TIMEOUT
 Spiel 560627: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560627.mp4 (21.9 s)
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560627.mp4 (21.8 s)
 Fehler bei Spiel 560627: 400 Client Error: Bad Request for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
+Spiel 565845: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565845.mp4 (20.4 s)
+Fehler bei Spiel 565845: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/
+Spiel 564736: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564736.mp4 (21.2 s)
+Fehler bei Spiel 564736: 504 Server Error: Gateway Time-out for url: https://open.tiktokapis.com/v2/post/publish/inbox/video/init/

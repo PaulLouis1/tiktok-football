@@ -1,5 +1,17 @@
 # Captions for new drafts (newest first)
 
+**AFC Bournemouth 2-0 Leeds United FC** (Premier League)
+
+```
+AFC Bournemouth 2:0 Leeds United FC | Premier League Highlights #fussball #premierleague
+```
+
+**Udinese Calcio 2-5 AS Roma** (Serie A)
+
+```
+Udinese Calcio 2:5 AS Roma | Serie A Highlights #fussball #seriea
+```
+
 **Bologna FC 1909 2-1 AC Monza** (Serie A)
 
 ```
