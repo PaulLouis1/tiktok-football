@@ -62,6 +62,22 @@ def query_creator_info() -> dict:
     return r.json()["data"]
 
 
+class TikTokError(RuntimeError):
+    pass
+
+
+def _check(r) -> None:
+    """Wie raise_for_status, aber mit der Fehlermeldung von TikTok (z. B. spam_risk_too_many_pending_share)."""
+    if r.status_code >= 400:
+        raise TikTokError(f"{r.status_code} {r.url.split('/v2/')[-1]}: {r.text[:300]}")
+    try:
+        err = (r.json() or {}).get("error") or {}
+    except ValueError:
+        err = {}
+    if err.get("code") not in (None, "", "ok"):
+        raise TikTokError(f"{err.get('code')}: {err.get('message')}")
+
+
 def _source_info(path: str) -> dict:
     size = os.path.getsize(path)
     chunk = min(size, CHUNK)
@@ -79,7 +95,7 @@ def upload_draft(path: str, title: str) -> str:
         f.write(title)
     si = _source_info(path)
     r = requests.post(INBOX, headers=_headers(), json={"source_info": si}, timeout=30)
-    r.raise_for_status()
+    _check(r)
     data = r.json()["data"]
     _put_chunks(path, data["upload_url"], si)
     return data["publish_id"]

@@ -364,7 +364,7 @@ def build_extra_scenes(m):
     out = []
     for ex in m.get("extras", []):
         order = ex.get("order", ex["minute"] + 0.5 if ex.get("minute") is not None else 50.0)
-        out.append({"kind": "info", "info": ex, "order": order, "prio": ex.get("prio", 9),
+        out.append({"kind": "info", "info": ex, "order": order, "prio": ex.get("prio", 9), "must": bool(ex.get("must")),
                     "speech": tr(ex["speech"]), "caption": tr(ex["caption"])})
     return out
 
@@ -385,9 +385,9 @@ def produce(m: dict, out_path: str, work_dir: str | None = None, preview_dir: st
         sc["chunks"] = scriptmod.make_chunks(sc["caption"], config.SCENE_LEAD, config.SCENE_LEAD + al, sc["dur"])
 
     # Zielspanne: Zusatzszenen nach Priorität ergänzen, bis die Mindestlänge erreicht ist
-    total = sum(s["dur"] for s in base)
-    chosen = []
-    for ex in sorted(extras, key=lambda s: s["prio"]):
+    chosen = [e for e in extras if e.get("must")]  # vom Textautor fest eingeplante Szenen
+    total = sum(s["dur"] for s in base) + sum(e["dur"] for e in chosen)
+    for ex in sorted([e for e in extras if not e.get("must")], key=lambda s: s["prio"]):
         if total >= config.MIN_TOTAL:
             break
         if total + ex["dur"] <= config.MAX_TOTAL:

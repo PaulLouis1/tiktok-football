@@ -30,3 +30,9 @@ shown in the run summary. Paste it when you publish.
 ## Local
 `pip install -r requirements.txt`, FFmpeg, `bash setup_tts.sh`, then `python main.py --example`.
 Fonts: Poppins (SIL Open Font License) in `fonts/`.
+
+## Textautor (optional, braucht ANTHROPIC_API_KEY und Tordaten)
+`storyteller.py` schreibt Hook, Kontext, Torszenen, Tabellenfolge und Abschlussfrage nach `prompts/master_prompt.md`,
+prüft sie (Zahlen nur aus den Fakten, Torschützen genannt, keine Like-Floskel, Faktencheck, Dauer 65-80 s mit der echten Stimme)
+und liefert Titel, Beschreibung, Hashtags und Warnungen für `captions.md`. Ohne Key oder ohne Tordaten greifen die Vorlagen.
+`STORYTELLER=0` schaltet ihn ab. Widersprüchliche Daten (Tore passen nicht zum Endstand) verhindern die Veröffentlichung.

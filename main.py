@@ -67,6 +67,29 @@ def process_new_matches(upload: bool) -> None:
                     print(f"Spiel {mid}: {len(model['goals'])} Tore und {len(extra)} Extras ergänzt")
                 else:
                     print(f"Spiel {mid}: keine Tordaten, es wird ein Video ohne Tore erzeugt")
+            meta = None
+            if config.STORYTELLER and config.ANTHROPIC_API_KEY and model["goals"]:
+                backup = (model.get("script"), list(model.get("extras") or []))
+                try:
+                    import storyteller
+
+                    forms = None
+                    if os.environ.get("STORY_FORM", "1") == "1":
+                        try:
+                            fid = model["facts_raw"]
+                            forms = {"home": ds.fetch_form(fid["home_id"], exclude=mid), "away": ds.fetch_form(fid["away_id"], exclude=mid)}
+                        except Exception as e:
+                            print(f"Spiel {mid}: Formdaten nicht verfügbar ({e})")
+                    meta = storyteller.write(model, forms)
+                    print(f"Spiel {mid}: Autortext freigegeben ({meta['duration']} s, {meta['rounds']} Runde(n))")
+                except storyteller.CriticalError as e:
+                    print(f"Spiel {mid}: KRITISCH, nichts veröffentlicht: {e}")
+                    state["tries"][mid] = state["tries"].get(mid, 0) + 1
+                    continue
+                except Exception as e:  # Text nicht freigabefähig oder API-Fehler: Vorlagen-Video mit gesicherten Fakten
+                    print(f"Spiel {mid}: Autortext nicht freigegeben ({e}); Vorlagen-Video")
+                    model["script"], model["extras"] = backup
+                    meta = None
             if sh + sa == 0 and os.environ.get("SKIP_GOALLESS", "1") == "1":
                 print(f"Spiel {mid}: 0:0, übersprungen")
                 state["done"].add(mid)
@@ -81,6 +104,8 @@ def process_new_matches(upload: bool) -> None:
                 home=model["home"]["name"], away=model["away"]["name"],
                 sh=sh, sa=sa, league=model["league"], tag=model["league"].replace(" ", "").lower(),
             )
+            if meta:
+                title = meta["title"] + "\n\n" + meta["description"] + "\n" + " ".join(meta["hashtags"][:5])
             if upload:
                 import uploader
 
@@ -89,11 +114,19 @@ def process_new_matches(upload: bool) -> None:
                 print("hochgeladen:", pid, status)
                 if status == "FAILED":
                     raise RuntimeError("TikTok meldet FAILED")
-            captions.append(f"**{model['home']['name']} {sh}-{sa} {model['away']['name']}** ({model['league']})\n\n```\n{title}\n```\n")
+            entry = f"**{model['home']['name']} {sh}-{sa} {model['away']['name']}** ({model['league']})\n\n```\n{title}\n```\n"
+            if meta and meta["warnings"]:
+                entry += "\nHinweise: " + "; ".join(str(w) for w in meta["warnings"][:4]) + "\n"
+            captions.append(entry)
             state["done"].add(mid)
         except Exception as e:  # ein defektes Spiel soll den Lauf nicht stoppen
-            state["tries"][mid] = state["tries"].get(mid, 0) + 1
             print(f"Fehler bei Spiel {mid}: {e}")
+            if "spam_risk" in str(e) or "too_many" in str(e):
+                # TikTok begrenzt offene Entwürfe pro Tag: Lauf beenden, Spiel NICHT als Fehlversuch zählen
+                print("TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.")
+                ds.save_state(state)
+                break
+            state["tries"][mid] = state["tries"].get(mid, 0) + 1
         finally:
             ds.save_state(state)
     if captions:

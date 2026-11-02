@@ -57,8 +57,8 @@ SCENE_LEAD = 0.12          # Pause vor dem ersten Wort (s)
 AMBIENCE = os.environ.get("AMBIENCE", "1") == "1"  # leise Stadionkulisse + Impact-Sounds
 TARGET_LUFS = -14.0        # TikTok-typische Lautheit
 # Zielspanne der Videolänge: knapp über eine Minute (Zusatzszenen werden nach Priorität ergänzt)
-MIN_TOTAL = float(os.environ.get("MIN_TOTAL", "61"))
-MAX_TOTAL = float(os.environ.get("MAX_TOTAL", "70"))
+MIN_TOTAL = float(os.environ.get("MIN_TOTAL", "65"))
+MAX_TOTAL = float(os.environ.get("MAX_TOTAL", "80"))
 
 # --- Pfade -------------------------------------------------------------------
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
@@ -68,6 +68,9 @@ EXAMPLE_MATCH = os.path.join(BASE_DIR, "examples", "freiburg_bayern_2026-10-25.j
 # --- Tore/Zusatzszenen per Sprachmodell (optional; ohne Key: Videos ohne Tore) ---------
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 ENRICH_MODEL = os.environ.get("ENRICH_MODEL", "claude-sonnet-5-5")
+# Textautor nach prompts/master_prompt.md (braucht ANTHROPIC_API_KEY und Tordaten); STORYTELLER=0 schaltet ihn ab
+STORY_MODEL = os.environ.get("STORY_MODEL", "claude-sonnet-5-5")
+STORYTELLER = os.environ.get("STORYTELLER", "1") == "1"
 
 # --- Zeitplan-Betrieb ------------------------------------------------------------
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "12"))   # höchstens so viele Videos pro Lauf

@@ -128,7 +128,37 @@ def to_video_model(match: dict, detail: dict | None, table: list[dict] | None) -
         "next": None,
     }
     m["extras"] = auto_extras(m, match, table or [])
+    # Rohdaten für den Textautor (storyteller.py): nur, was die API wirklich geliefert hat
+    m["facts_raw"] = {
+        "date": (match.get("utcDate") or "")[:10],
+        "season": (match.get("season") or {}).get("startDate", "")[:4],
+        "halftime": [(match.get("score") or {}).get("halfTime", {}).get("home"), (match.get("score") or {}).get("halfTime", {}).get("away")],
+        "bookings": d.get("bookings") or [],
+        "table": [r for r in (table or [])],
+        "home_id": home["id"], "away_id": away["id"],
+    }
     return m
+
+
+def fetch_form(team_id: int, n: int = 5, exclude: int | None = None) -> list[dict]:
+    """Letzte n beendete Spiele eines Teams (Ergebnis aus Sicht des Teams). Ein API-Call."""
+    data = _get(f"/teams/{team_id}/matches", {"status": "FINISHED", "limit": n + 1})
+    ms = sorted([x for x in data.get("matches", []) if x.get("id") != exclude], key=lambda x: x.get("utcDate", ""), reverse=True)
+    out = []
+    for x in ms:
+        ft = (x.get("score") or {}).get("fullTime") or {}
+        if ft.get("home") is None:
+            continue
+        is_home = x["homeTeam"]["id"] == team_id
+        own, opp = (ft["home"], ft["away"]) if is_home else (ft["away"], ft["home"])
+        opp_team = x["awayTeam"] if is_home else x["homeTeam"]
+        out.append({
+            "result": "W" if own > opp else "D" if own == opp else "L",
+            "score": f"{own}:{opp}", "opponent": opp_team.get("shortName") or opp_team["name"],
+            "venue": "home" if is_home else "away", "date": (x.get("utcDate") or "")[:10],
+            "competition": x.get("competition", {}).get("name", ""),
+        })
+    return out[:n]
 
 
 def _fix_own_goal_sides(goals: list[dict], sh: int, sa: int) -> None:
