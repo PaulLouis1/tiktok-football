@@ -1,5 +1,65 @@
 # Captions for new drafts (newest first)
 
+**Como 1907 1-0 Venezia FC** (Serie A)
+
+```
+Como 1907 1:0 Venezia FC | Serie A Highlights #fussball #seriea
+```
+
+**Getafe CF 3-1 Sevilla FC** (La Liga)
+
+```
+Getafe CF 3:1 Sevilla FC | La Liga Highlights #fussball #laliga
+```
+
+**RC Strasbourg Alsace 5-1 AJ Auxerre** (Ligue 1)
+
+```
+RC Strasbourg Alsace 5:1 AJ Auxerre | Ligue 1 Highlights #fussball #ligue1
+```
+
+**Frosinone Calcio 2-0 Torino FC** (Serie A)
+
+```
+Frosinone Calcio 2:0 Torino FC | Serie A Highlights #fussball #seriea
+```
+
+**SS Lazio 2-1 Cagliari Calcio** (Serie A)
+
+```
+SS Lazio 2:1 Cagliari Calcio | Serie A Highlights #fussball #seriea
+```
+
+**1. FC Union Berlin 1-1 1. FC Köln** (Bundesliga)
+
+```
+1. FC Union Berlin 1:1 1. FC Köln | Bundesliga Highlights #fussball #bundesliga
+```
+
+**Real Racing Club de Santander 0-3 Real Madrid CF** (La Liga)
+
+```
+Real Racing Club de Santander 0:3 Real Madrid CF | La Liga Highlights #fussball #laliga
+```
+
+**Paris FC 3-1 AS Monaco FC** (Ligue 1)
+
+```
+Paris FC 3:1 AS Monaco FC | Ligue 1 Highlights #fussball #ligue1
+```
+
+**Olympique Lyonnais 2-0 Angers SCO** (Ligue 1)
+
+```
+Olympique Lyonnais 2:0 Angers SCO | Ligue 1 Highlights #fussball #ligue1
+```
+
+**Liverpool FC 0-1 Arsenal FC** (Premier League)
+
+```
+Liverpool FC 0:1 Arsenal FC | Premier League Highlights #fussball #premierleague
+```
+
 **AFC Bournemouth 2-0 Leeds United FC** (Premier League)
 
 ```
