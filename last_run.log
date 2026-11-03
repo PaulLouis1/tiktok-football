@@ -1,6 +1,6 @@
 5 neue beendete Spiele (offen insgesamt: 5); erledigt: 52
 IDs: [558541, 559641, 558545, 560622, 564731]
 Spiel 558541: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558541.mp4 (22.9 s)
-Fehler bei Spiel 558541: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611030635278611957F8E0B524A99D9"}}
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558541.mp4 (22.7 s)
+Fehler bei Spiel 558541: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261103143937EBF8B1B5764EBDAA674B"}}
 TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.
