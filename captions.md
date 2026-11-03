@@ -1,5 +1,47 @@
 # Captions for new drafts (newest first)
 
+**US Sassuolo Calcio 2-4 ACF Fiorentina** (Serie A)
+
+```
+US Sassuolo Calcio 2:4 ACF Fiorentina | Serie A Highlights #fussball #seriea
+```
+
+**FC Lorient 0-2 Stade Brestois 29** (Ligue 1)
+
+```
+FC Lorient 0:2 Stade Brestois 29 | Ligue 1 Highlights #fussball #ligue1
+```
+
+**Atalanta BC 0-3 Parma Calcio 1913** (Serie A)
+
+```
+Atalanta BC 0:3 Parma Calcio 1913 | Serie A Highlights #fussball #seriea
+```
+
+**Newcastle United FC 0-1 Everton FC** (Premier League)
+
+```
+Newcastle United FC 0:1 Everton FC | Premier League Highlights #fussball #premierleague
+```
+
+**RC Deportivo La Coruña 2-1 CA Osasuna** (La Liga)
+
+```
+RC Deportivo La Coruña 2:1 CA Osasuna | La Liga Highlights #fussball #laliga
+```
+
+**FK Shakhtar Donetsk 0-1 Sporting Clube de Portugal** (Champions League)
+
+```
+FK Shakhtar Donetsk 0:1 Sporting Clube de Portugal | Champions League Highlights #fussball #championsleague
+```
+
+**Galatasaray SK 2-0 VfB Stuttgart** (Champions League)
+
+```
+Galatasaray SK 2:0 VfB Stuttgart | Champions League Highlights #fussball #championsleague
+```
+
 **Como 1907 1-0 Venezia FC** (Serie A)
 
 ```
@@ -197,28 +239,3 @@ Paris Saint-Germain FC 2:0 Olympique Lyonnais | Ligue 1 Highlights #fussball #li
 ```
 Sevilla FC 2:0 CA Osasuna | La Liga Highlights #fussball #laliga
 ```
-
-**Athletic Club 4-0 Getafe CF** (La Liga)
-
-```
-Athletic Club 4:0 Getafe CF | La Liga Highlights #fussball #laliga
-```
-
-**Manchester United FC 0-3 AFC Bournemouth** (Premier League)
-
-```
-Manchester United FC 0:3 AFC Bournemouth | Premier League Highlights #fussball #premierleague
-```
-
-**TSG 1899 Hoffenheim 3-0 Bayer 04 Leverkusen** (Bundesliga)
-
-```
-TSG 1899 Hoffenheim 3:0 Bayer 04 Leverkusen | Bundesliga Highlights #fussball #bundesliga
-```
-
-**SC Freiburg 1-3 FC Bayern München** (Bundesliga)
-
-```
-SC Freiburg 1:3 FC Bayern München | Bundesliga Highlights #fussball #bundesliga
-```
-
