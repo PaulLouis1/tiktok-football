@@ -1,5 +1,53 @@
 # Captions for new drafts (newest first)
 
+**Villarreal CF 0-6 Paris Saint-Germain FC** (Champions League)
+
+```
+Villarreal CF 0:6 Paris Saint-Germain FC | Champions League Highlights #fussball #championsleague
+```
+
+**FC Barcelona 3-0 Aston Villa FC** (Champions League)
+
+```
+FC Barcelona 3:0 Aston Villa FC | Champions League Highlights #fussball #championsleague
+```
+
+**Club Atlético de Madrid 0-2 FC Bayern München** (Champions League)
+
+```
+Club Atlético de Madrid 0:2 FC Bayern München | Champions League Highlights #fussball #championsleague
+```
+
+**Manchester United FC 3-2 AS Roma** (Champions League)
+
+```
+Manchester United FC 3:2 AS Roma | Champions League Highlights #fussball #championsleague
+```
+
+**Feyenoord Rotterdam 0-3 FC Internazionale Milano** (Champions League)
+
+```
+Feyenoord Rotterdam 0:3 FC Internazionale Milano | Champions League Highlights #fussball #championsleague
+```
+
+**LASK Linz 4-0 ŠK Slovan Bratislava** (Champions League)
+
+```
+LASK Linz 4:0 ŠK Slovan Bratislava | Champions League Highlights #fussball #championsleague
+```
+
+**PAE AEK 2-3 Real Madrid CF** (Champions League)
+
+```
+PAE AEK 2:3 Real Madrid CF | Champions League Highlights #fussball #championsleague
+```
+
+**Fenerbahçe SK 3-2 Liverpool FC** (Champions League)
+
+```
+Fenerbahçe SK 3:2 Liverpool FC | Champions League Highlights #fussball #championsleague
+```
+
 **US Sassuolo Calcio 2-4 ACF Fiorentina** (Serie A)
 
 ```
@@ -190,52 +238,4 @@ Frosinone Calcio 5:1 US Lecce | Serie A Highlights #fussball #seriea
 
 ```
 Venezia FC 0:2 FC Internazionale Milano | Serie A Highlights #fussball #seriea
-```
-
-**AC Milan 2-4 Bologna FC 1909** (Serie A)
-
-```
-AC Milan 2:4 Bologna FC 1909 | Serie A Highlights #fussball #seriea
-```
-
-**Genoa CFC 2-0 Juventus FC** (Serie A)
-
-```
-Genoa CFC 2:0 Juventus FC | Serie A Highlights #fussball #seriea
-```
-
-**AC Monza 1-4 SSC Napoli** (Serie A)
-
-```
-AC Monza 1:4 SSC Napoli | Serie A Highlights #fussball #seriea
-```
-
-**AS Roma 4-2 Cagliari Calcio** (Serie A)
-
-```
-AS Roma 4:2 Cagliari Calcio | Serie A Highlights #fussball #seriea
-```
-
-**Torino FC 1-3 Como 1907** (Serie A)
-
-```
-Torino FC 1:3 Como 1907 | Serie A Highlights #fussball #seriea
-```
-
-**US Sassuolo Calcio 2-6 SS Lazio** (Serie A)
-
-```
-US Sassuolo Calcio 2:6 SS Lazio | Serie A Highlights #fussball #seriea
-```
-
-**Paris Saint-Germain FC 2-0 Olympique Lyonnais** (Ligue 1)
-
-```
-Paris Saint-Germain FC 2:0 Olympique Lyonnais | Ligue 1 Highlights #fussball #ligue1
-```
-
-**Sevilla FC 2-0 CA Osasuna** (La Liga)
-
-```
-Sevilla FC 2:0 CA Osasuna | La Liga Highlights #fussball #laliga
 ```
