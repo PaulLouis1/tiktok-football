@@ -1,6 +1,6 @@
 7 neue beendete Spiele (offen insgesamt: 7); erledigt: 68
-IDs: [575393, 575389, 575391, 575388, 575394, 575390, 575392]
-Spiel 575393: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575393.mp4 (14.6 s)
-Fehler bei Spiel 575393: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261105104434D0617E3AF8403D393AE2"}}
+IDs: [575394, 575390, 575392, 575388, 575389, 575391, 575393]
+Spiel 575394: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575394.mp4 (12.6 s)
+Fehler bei Spiel 575394: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611051841270A6A279917A917AEBCCA"}}
 TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.
