@@ -1,5 +1,29 @@
 # Captions for new drafts (newest first)
 
+**Hamburger SV 3-1 Borussia Mönchengladbach** (Bundesliga)
+
+```
+Hamburger SV 3:1 Borussia Mönchengladbach | Bundesliga Highlights #fussball #bundesliga
+```
+
+**Venezia FC 2-1 Udinese Calcio** (Serie A)
+
+```
+Venezia FC 2:1 Udinese Calcio | Serie A Highlights #fussball #seriea
+```
+
+**Toulouse FC 3-1 RC Strasbourg Alsace** (Ligue 1)
+
+```
+Toulouse FC 3:1 RC Strasbourg Alsace | Ligue 1 Highlights #fussball #ligue1
+```
+
+**Everton FC 3-1 Coventry City FC** (Premier League)
+
+```
+Everton FC 3:1 Coventry City FC | Premier League Highlights #fussball #premierleague
+```
+
 **Villarreal CF 0-6 Paris Saint-Germain FC** (Champions League)
 
 ```
@@ -214,28 +238,4 @@ SV 07 Elversberg 4:1 1. FSV Mainz 05 | Bundesliga Highlights #fussball #bundesli
 
 ```
 Villarreal CF 0:1 RCD Espanyol de Barcelona | La Liga Highlights #fussball #laliga
-```
-
-**Lille OSC 1-0 Racing Club de Lens** (Ligue 1)
-
-```
-Lille OSC 1:0 Racing Club de Lens | Ligue 1 Highlights #fussball #ligue1
-```
-
-**ACF Fiorentina 2-2 Atalanta BC** (Serie A)
-
-```
-ACF Fiorentina 2:2 Atalanta BC | Serie A Highlights #fussball #seriea
-```
-
-**Frosinone Calcio 5-1 US Lecce** (Serie A)
-
-```
-Frosinone Calcio 5:1 US Lecce | Serie A Highlights #fussball #seriea
-```
-
-**Venezia FC 0-2 FC Internazionale Milano** (Serie A)
-
-```
-Venezia FC 0:2 FC Internazionale Milano | Serie A Highlights #fussball #seriea
 ```
