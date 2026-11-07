@@ -1,5 +1,17 @@
 # Captions for new drafts (newest first)
 
+**Leeds United FC 1-0 Tottenham Hotspur FC** (Premier League)
+
+```
+Leeds United FC 1:0 Tottenham Hotspur FC | Premier League Highlights #fussball #premierleague
+```
+
+**Málaga CF 1-2 Real Racing Club de Santander** (La Liga)
+
+```
+Málaga CF 1:2 Real Racing Club de Santander | La Liga Highlights #fussball #laliga
+```
+
 **Hamburger SV 3-1 Borussia Mönchengladbach** (Bundesliga)
 
 ```
@@ -226,16 +238,4 @@ OGC Nice 5:2 Stade Rennais FC 1901 | Ligue 1 Highlights #fussball #ligue1
 
 ```
 Le Havre AC 1:5 Paris Saint-Germain FC | Ligue 1 Highlights #fussball #ligue1
-```
-
-**SV 07 Elversberg 4-1 1. FSV Mainz 05** (Bundesliga)
-
-```
-SV 07 Elversberg 4:1 1. FSV Mainz 05 | Bundesliga Highlights #fussball #bundesliga
-```
-
-**Villarreal CF 0-1 RCD Espanyol de Barcelona** (La Liga)
-
-```
-Villarreal CF 0:1 RCD Espanyol de Barcelona | La Liga Highlights #fussball #laliga
 ```
