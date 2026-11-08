@@ -1,5 +1,23 @@
 # Captions for new drafts (newest first)
 
+**Torino FC 1-1 US Lecce** (Serie A)
+
+```
+Torino FC 1:1 US Lecce | Serie A Highlights #fussball #seriea
+```
+
+**Cagliari Calcio 1-0 Frosinone Calcio** (Serie A)
+
+```
+Cagliari Calcio 1:0 Frosinone Calcio | Serie A Highlights #fussball #seriea
+```
+
+**1. FSV Mainz 05 1-2 FC Bayern München** (Bundesliga)
+
+```
+1. FSV Mainz 05 1:2 FC Bayern München | Bundesliga Highlights #fussball #bundesliga
+```
+
 **Leeds United FC 1-0 Tottenham Hotspur FC** (Premier League)
 
 ```
@@ -220,22 +238,4 @@ FC Augsburg 1:2 SC Freiburg | Bundesliga Highlights #fussball #bundesliga
 
 ```
 Chelsea FC 2:0 Manchester United FC | Premier League Highlights #fussball #premierleague
-```
-
-**Levante UD 0-2 Club Atlético de Madrid** (La Liga)
-
-```
-Levante UD 0:2 Club Atlético de Madrid | La Liga Highlights #fussball #laliga
-```
-
-**OGC Nice 5-2 Stade Rennais FC 1901** (Ligue 1)
-
-```
-OGC Nice 5:2 Stade Rennais FC 1901 | Ligue 1 Highlights #fussball #ligue1
-```
-
-**Le Havre AC 1-5 Paris Saint-Germain FC** (Ligue 1)
-
-```
-Le Havre AC 1:5 Paris Saint-Germain FC | Ligue 1 Highlights #fussball #ligue1
 ```
