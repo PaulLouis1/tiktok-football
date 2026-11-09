@@ -1,5 +1,71 @@
 # Captions for new drafts (newest first)
 
+**RB Leipzig 5-2 FC Augsburg** (Bundesliga)
+
+```
+RB Leipzig 5:2 FC Augsburg | Bundesliga Highlights #fussball #bundesliga
+```
+
+**Borussia Dortmund 2-1 SV 07 Elversberg** (Bundesliga)
+
+```
+Borussia Dortmund 2:1 SV 07 Elversberg | Bundesliga Highlights #fussball #bundesliga
+```
+
+**SC Paderborn 07 2-2 Eintracht Frankfurt** (Bundesliga)
+
+```
+SC Paderborn 07 2:2 Eintracht Frankfurt | Bundesliga Highlights #fussball #bundesliga
+```
+
+**Fulham FC 1-1 Newcastle United FC** (Premier League)
+
+```
+Fulham FC 1:1 Newcastle United FC | Premier League Highlights #fussball #premierleague
+```
+
+**Arsenal FC 1-0 Hull City AFC** (Premier League)
+
+```
+Arsenal FC 1:0 Hull City AFC | Premier League Highlights #fussball #premierleague
+```
+
+**Parma Calcio 1913 1-2 Bologna FC 1909** (Serie A)
+
+```
+Parma Calcio 1913 1:2 Bologna FC 1909 | Serie A Highlights #fussball #seriea
+```
+
+**VfB Stuttgart 1-0 SV Werder Bremen** (Bundesliga)
+
+```
+VfB Stuttgart 1:0 SV Werder Bremen | Bundesliga Highlights #fussball #bundesliga
+```
+
+**CA Osasuna 1-1 Athletic Club** (La Liga)
+
+```
+CA Osasuna 1:1 Athletic Club | La Liga Highlights #fussball #laliga
+```
+
+**Nottingham Forest FC 3-1 Manchester City FC** (Premier League)
+
+```
+Nottingham Forest FC 3:1 Manchester City FC | Premier League Highlights #fussball #premierleague
+```
+
+**AJ Auxerre 0-1 Paris FC** (Ligue 1)
+
+```
+AJ Auxerre 0:1 Paris FC | Ligue 1 Highlights #fussball #ligue1
+```
+
+**AS Roma 3-0 US Sassuolo Calcio** (Serie A)
+
+```
+AS Roma 3:0 US Sassuolo Calcio | Serie A Highlights #fussball #seriea
+```
+
 **Torino FC 1-1 US Lecce** (Serie A)
 
 ```
@@ -172,70 +238,4 @@ Frosinone Calcio 2:0 Torino FC | Serie A Highlights #fussball #seriea
 
 ```
 SS Lazio 2:1 Cagliari Calcio | Serie A Highlights #fussball #seriea
-```
-
-**1. FC Union Berlin 1-1 1. FC Köln** (Bundesliga)
-
-```
-1. FC Union Berlin 1:1 1. FC Köln | Bundesliga Highlights #fussball #bundesliga
-```
-
-**Real Racing Club de Santander 0-3 Real Madrid CF** (La Liga)
-
-```
-Real Racing Club de Santander 0:3 Real Madrid CF | La Liga Highlights #fussball #laliga
-```
-
-**Paris FC 3-1 AS Monaco FC** (Ligue 1)
-
-```
-Paris FC 3:1 AS Monaco FC | Ligue 1 Highlights #fussball #ligue1
-```
-
-**Olympique Lyonnais 2-0 Angers SCO** (Ligue 1)
-
-```
-Olympique Lyonnais 2:0 Angers SCO | Ligue 1 Highlights #fussball #ligue1
-```
-
-**Liverpool FC 0-1 Arsenal FC** (Premier League)
-
-```
-Liverpool FC 0:1 Arsenal FC | Premier League Highlights #fussball #premierleague
-```
-
-**AFC Bournemouth 2-0 Leeds United FC** (Premier League)
-
-```
-AFC Bournemouth 2:0 Leeds United FC | Premier League Highlights #fussball #premierleague
-```
-
-**Udinese Calcio 2-5 AS Roma** (Serie A)
-
-```
-Udinese Calcio 2:5 AS Roma | Serie A Highlights #fussball #seriea
-```
-
-**Bologna FC 1909 2-1 AC Monza** (Serie A)
-
-```
-Bologna FC 1909 2:1 AC Monza | Serie A Highlights #fussball #seriea
-```
-
-**Bayer 04 Leverkusen 2-4 VfB Stuttgart** (Bundesliga)
-
-```
-Bayer 04 Leverkusen 2:4 VfB Stuttgart | Bundesliga Highlights #fussball #bundesliga
-```
-
-**FC Augsburg 1-2 SC Freiburg** (Bundesliga)
-
-```
-FC Augsburg 1:2 SC Freiburg | Bundesliga Highlights #fussball #bundesliga
-```
-
-**Chelsea FC 2-0 Manchester United FC** (Premier League)
-
-```
-Chelsea FC 2:0 Manchester United FC | Premier League Highlights #fussball #premierleague
 ```
