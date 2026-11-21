@@ -1,5 +1,23 @@
 # Captions for new drafts (newest first)
 
+**FC Bayern München 1-1 1. FC Köln** (Bundesliga)
+
+```
+FC Bayern München 1:1 1. FC Köln | Bundesliga Highlights #fussball #bundesliga
+```
+
+**ES Troyes AC 3-1 Le Havre AC** (Ligue 1)
+
+```
+ES Troyes AC 3:1 Le Havre AC | Ligue 1 Highlights #fussball #ligue1
+```
+
+**Athletic Club 0-1 RCD Espanyol de Barcelona** (La Liga)
+
+```
+Athletic Club 0:1 RCD Espanyol de Barcelona | La Liga Highlights #fussball #laliga
+```
+
 **RB Leipzig 5-2 FC Augsburg** (Bundesliga)
 
 ```
@@ -220,22 +238,4 @@ Como 1907 1:0 Venezia FC | Serie A Highlights #fussball #seriea
 
 ```
 Getafe CF 3:1 Sevilla FC | La Liga Highlights #fussball #laliga
-```
-
-**RC Strasbourg Alsace 5-1 AJ Auxerre** (Ligue 1)
-
-```
-RC Strasbourg Alsace 5:1 AJ Auxerre | Ligue 1 Highlights #fussball #ligue1
-```
-
-**Frosinone Calcio 2-0 Torino FC** (Serie A)
-
-```
-Frosinone Calcio 2:0 Torino FC | Serie A Highlights #fussball #seriea
-```
-
-**SS Lazio 2-1 Cagliari Calcio** (Serie A)
-
-```
-SS Lazio 2:1 Cagliari Calcio | Serie A Highlights #fussball #seriea
 ```
