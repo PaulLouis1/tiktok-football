@@ -1,6 +1,6 @@
-12 neue beendete Spiele (offen insgesamt: 23); erledigt: 98
-IDs: [565865, 565860, 565862, 565857, 560642, 560648, 560644, 560647, 560650, 564751, 559628, 558526]
+12 neue beendete Spiele (offen insgesamt: 34); erledigt: 98
+IDs: [565865, 565862, 565857, 565860, 560642, 560648, 560644, 560647, 560650, 564751, 559628, 558526]
 Spiel 565865: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565865.mp4 (21.0 s)
-Fehler bei Spiel 565865: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026112215381543E57EBAEB5C1F66EA60"}}
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565865.mp4 (21.3 s)
+Fehler bei Spiel 565865: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611222143195C4B0A45ACF459CD9414"}}
 TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.
