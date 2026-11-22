@@ -1,16 +1,12 @@
-12 neue beendete Spiele (offen insgesamt: 26); erledigt: 93
-IDs: [560643, 564755, 558525, 558528, 565862, 565857, 565860, 565858, 565865, 560647, 560650, 560642]
-Spiel 560643: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560643.mp4 (21.3 s)
-hochgeladen: v_inbox_file~v2.7710783031451437078 SEND_TO_USER_INBOX
-Spiel 564755: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564755.mp4 (22.6 s)
-letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6444939},"error":{"code":"ok","message":"","log_id":"20261122002018ACD5CB9949315EE5A8AF"}}
-hochgeladen: v_inbox_file~v2.7710780036874291222 TIMEOUT
-Spiel 558525: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558525.mp4 (25.8 s)
-hochgeladen: v_inbox_file~v2.7710784026725894166 SEND_TO_USER_INBOX
+12 neue beendete Spiele (offen insgesamt: 23); erledigt: 96
+IDs: [558528, 565858, 565865, 565862, 565857, 565860, 560642, 560648, 560644, 560647, 560650, 564751]
 Spiel 558528: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558528.mp4 (20.2 s)
-Fehler bei Spiel 558528: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611220022207392C7195FEC11D1E2A7"}}
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558528.mp4 (20.6 s)
+hochgeladen: v_inbox_file~v2.7710892391716554774 SEND_TO_USER_INBOX
+Spiel 565858: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565858.mp4 (23.8 s)
+hochgeladen: v_inbox_file~v2.7710892941866600470 SEND_TO_USER_INBOX
+Spiel 565865: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565865.mp4 (21.0 s)
+Fehler bei Spiel 565865: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261122072501E24C241E8C900E0AAD58"}}
 TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.

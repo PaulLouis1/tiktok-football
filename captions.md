@@ -1,5 +1,17 @@
 # Captions for new drafts (newest first)
 
+**SS Lazio 3-0 US Lecce** (Serie A)
+
+```
+SS Lazio 3:0 US Lecce | Serie A Highlights #fussball #seriea
+```
+
+**1. FC Union Berlin 1-5 RB Leipzig** (Bundesliga)
+
+```
+1. FC Union Berlin 1:5 RB Leipzig | Bundesliga Highlights #fussball #bundesliga
+```
+
 **Manchester City FC 1-1 Fulham FC** (Premier League)
 
 ```
@@ -226,16 +238,4 @@ Atalanta BC 0:3 Parma Calcio 1913 | Serie A Highlights #fussball #seriea
 
 ```
 Newcastle United FC 0:1 Everton FC | Premier League Highlights #fussball #premierleague
-```
-
-**RC Deportivo La Coruña 2-1 CA Osasuna** (La Liga)
-
-```
-RC Deportivo La Coruña 2:1 CA Osasuna | La Liga Highlights #fussball #laliga
-```
-
-**FK Shakhtar Donetsk 0-1 Sporting Clube de Portugal** (Champions League)
-
-```
-FK Shakhtar Donetsk 0:1 Sporting Clube de Portugal | Champions League Highlights #fussball #championsleague
 ```
