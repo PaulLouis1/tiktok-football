@@ -1,5 +1,23 @@
 # Captions for new drafts (newest first)
 
+**Manchester City FC 1-1 Fulham FC** (Premier League)
+
+```
+Manchester City FC 1:1 Fulham FC | Premier League Highlights #fussball #premierleague
+```
+
+**Deportivo Alavés 3-1 RC Deportivo La Coruña** (La Liga)
+
+```
+Deportivo Alavés 3:1 RC Deportivo La Coruña | La Liga Highlights #fussball #laliga
+```
+
+**Como 1907 2-0 Cagliari Calcio** (Serie A)
+
+```
+Como 1907 2:0 Cagliari Calcio | Serie A Highlights #fussball #seriea
+```
+
 **FC Bayern München 1-1 1. FC Köln** (Bundesliga)
 
 ```
@@ -220,22 +238,4 @@ RC Deportivo La Coruña 2:1 CA Osasuna | La Liga Highlights #fussball #laliga
 
 ```
 FK Shakhtar Donetsk 0:1 Sporting Clube de Portugal | Champions League Highlights #fussball #championsleague
-```
-
-**Galatasaray SK 2-0 VfB Stuttgart** (Champions League)
-
-```
-Galatasaray SK 2:0 VfB Stuttgart | Champions League Highlights #fussball #championsleague
-```
-
-**Como 1907 1-0 Venezia FC** (Serie A)
-
-```
-Como 1907 1:0 Venezia FC | Serie A Highlights #fussball #seriea
-```
-
-**Getafe CF 3-1 Sevilla FC** (La Liga)
-
-```
-Getafe CF 3:1 Sevilla FC | La Liga Highlights #fussball #laliga
 ```
