@@ -1,12 +1,6 @@
-12 neue beendete Spiele (offen insgesamt: 23); erledigt: 96
-IDs: [558528, 565858, 565865, 565862, 565857, 565860, 560642, 560648, 560644, 560647, 560650, 564751]
-Spiel 558528: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558528.mp4 (20.6 s)
-hochgeladen: v_inbox_file~v2.7710892391716554774 SEND_TO_USER_INBOX
-Spiel 565858: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565858.mp4 (23.8 s)
-hochgeladen: v_inbox_file~v2.7710892941866600470 SEND_TO_USER_INBOX
+12 neue beendete Spiele (offen insgesamt: 23); erledigt: 98
+IDs: [565865, 565860, 565862, 565857, 560642, 560648, 560644, 560647, 560650, 564751, 559628, 558526]
 Spiel 565865: keine Tordaten, es wird ein Video ohne Tore erzeugt
 gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565865.mp4 (21.0 s)
-Fehler bei Spiel 565865: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261122072501E24C241E8C900E0AAD58"}}
+Fehler bei Spiel 565865: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026112215381543E57EBAEB5C1F66EA60"}}
 TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.
