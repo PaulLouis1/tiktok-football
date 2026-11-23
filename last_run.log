@@ -1,6 +1,16 @@
-12 neue beendete Spiele (offen insgesamt: 34); erledigt: 98
-IDs: [565865, 565862, 565857, 565860, 560642, 560648, 560644, 560647, 560650, 564751, 559628, 558526]
-Spiel 565865: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565865.mp4 (21.3 s)
-Fehler bei Spiel 565865: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611222143195C4B0A45ACF459CD9414"}}
+12 neue beendete Spiele (offen insgesamt: 16); erledigt: 98
+IDs: [558521, 564749, 559625, 558524, 560646, 558522, 565864, 564750, 559626, 560645, 565863, 558523]
+Fehler bei Spiel 558521: football-data.org antwortete 404: {"message":"The resource you are looking for does not exist.","error":404}
+Spiel 564749: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564749.mp4 (21.0 s)
+Fehler bei Spiel 564749: 503 Server Error: Service Unavailable for url: https://open.tiktokapis.com/v2/post/publish/status/fetch/
+Spiel 559625: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/FL1_559625.mp4 (24.3 s)
+hochgeladen: v_inbox_file~v2.7711188814110214166 SEND_TO_USER_INBOX
+Spiel 558524: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558524.mp4 (20.8 s)
+hochgeladen: v_inbox_file~v2.7711188749140658198 SEND_TO_USER_INBOX
+Spiel 560646: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560646.mp4 (22.5 s)
+Fehler bei Spiel 560646: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261123023638A78826C938A991F1685C"}}
 TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.

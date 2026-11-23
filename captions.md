@@ -1,5 +1,17 @@
 # Captions for new drafts (newest first)
 
+**Paris FC 4-0 Angers SCO** (Ligue 1)
+
+```
+Paris FC 4:0 Angers SCO | Ligue 1 Highlights #fussball #ligue1
+```
+
+**US Sassuolo Calcio 0-2 Genoa CFC** (Serie A)
+
+```
+US Sassuolo Calcio 0:2 Genoa CFC | Serie A Highlights #fussball #seriea
+```
+
 **SS Lazio 3-0 US Lecce** (Serie A)
 
 ```
@@ -226,16 +238,4 @@ US Sassuolo Calcio 2:4 ACF Fiorentina | Serie A Highlights #fussball #seriea
 
 ```
 FC Lorient 0:2 Stade Brestois 29 | Ligue 1 Highlights #fussball #ligue1
-```
-
-**Atalanta BC 0-3 Parma Calcio 1913** (Serie A)
-
-```
-Atalanta BC 0:3 Parma Calcio 1913 | Serie A Highlights #fussball #seriea
-```
-
-**Newcastle United FC 0-1 Everton FC** (Premier League)
-
-```
-Newcastle United FC 0:1 Everton FC | Premier League Highlights #fussball #premierleague
 ```
