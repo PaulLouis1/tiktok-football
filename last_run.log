@@ -1,16 +1,30 @@
-12 neue beendete Spiele (offen insgesamt: 16); erledigt: 98
-IDs: [558521, 564749, 559625, 558524, 560646, 558522, 565864, 564750, 559626, 560645, 565863, 558523]
-Fehler bei Spiel 558521: football-data.org antwortete 404: {"message":"The resource you are looking for does not exist.","error":404}
+12 neue beendete Spiele (offen insgesamt: 14); erledigt: 100
+IDs: [558521, 564749, 560646, 558522, 565864, 564750, 559626, 565863, 560645, 558523, 564752, 559629]
+Spiel 558521: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558521.mp4 (23.3 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6559579},"error":{"code":"ok","message":"","log_id":"202611231112547424FECE59D452605ABE"}}
+hochgeladen: v_inbox_file~v2.7711322814741563395 TIMEOUT
 Spiel 564749: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564749.mp4 (21.0 s)
-Fehler bei Spiel 564749: 503 Server Error: Service Unavailable for url: https://open.tiktokapis.com/v2/post/publish/status/fetch/
-Spiel 559625: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/FL1_559625.mp4 (24.3 s)
-hochgeladen: v_inbox_file~v2.7711188814110214166 SEND_TO_USER_INBOX
-Spiel 558524: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558524.mp4 (20.8 s)
-hochgeladen: v_inbox_file~v2.7711188749140658198 SEND_TO_USER_INBOX
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564749.mp4 (20.7 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":5921928},"error":{"code":"ok","message":"","log_id":"20261123111503383B11E05C1DB446783E"}}
+hochgeladen: v_inbox_file~v2.7711323382062532630 TIMEOUT
 Spiel 560646: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560646.mp4 (22.5 s)
-Fehler bei Spiel 560646: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261123023638A78826C938A991F1685C"}}
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560646.mp4 (22.9 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6541006},"error":{"code":"ok","message":"","log_id":"202611231117142A2707C67D54E72F5389"}}
+hochgeladen: v_inbox_file~v2.7711323924797327382 TIMEOUT
+Spiel 558522: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558522.mp4 (21.2 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6033612},"error":{"code":"ok","message":"","log_id":"2026112311191346D210730753053C4C93"}}
+hochgeladen: v_inbox_file~v2.7711324346899531798 TIMEOUT
+Spiel 565864: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565864.mp4 (20.6 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":5918807},"error":{"code":"ok","message":"","log_id":"202611231121218C00717FB904D81B4276"}}
+hochgeladen: v_inbox_file~v2.7711324898589001750 TIMEOUT
+Spiel 564750: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564750.mp4 (22.1 s)
+letzte Statusantwort: {"data":{"uploaded_bytes":6287255,"status":"PROCESSING_UPLOAD"},"error":{"code":"ok","message":"","log_id":"202611231123256A35FD81DFCAFB3D61DB"}}
+hochgeladen: v_inbox_file~v2.7711325487376877590 TIMEOUT
+Spiel 559626: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/FL1_559626.mp4 (22.5 s)
+Fehler bei Spiel 559626: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026112311240677A5107D4938E73E10C1"}}
 TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.

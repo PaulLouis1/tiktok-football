@@ -1,5 +1,41 @@
 # Captions for new drafts (newest first)
 
+**Juventus FC 4-0 Venezia FC** (Serie A)
+
+```
+Juventus FC 4:0 Venezia FC | Serie A Highlights #fussball #seriea
+```
+
+**FC Barcelona 3-2 Villarreal CF** (La Liga)
+
+```
+FC Barcelona 3:2 Villarreal CF | La Liga Highlights #fussball #laliga
+```
+
+**Hull City AFC 2-0 Brighton & Hove Albion FC** (Premier League)
+
+```
+Hull City AFC 2:0 Brighton & Hove Albion FC | Premier League Highlights #fussball #premierleague
+```
+
+**Bologna FC 1909 1-1 Udinese Calcio** (Serie A)
+
+```
+Bologna FC 1909 1:1 Udinese Calcio | Serie A Highlights #fussball #seriea
+```
+
+**FC Augsburg 3-1 1. FSV Mainz 05** (Bundesliga)
+
+```
+FC Augsburg 3:1 1. FSV Mainz 05 | Bundesliga Highlights #fussball #bundesliga
+```
+
+**Real Racing Club de Santander 3-2 Real Sociedad de Fútbol** (La Liga)
+
+```
+Real Racing Club de Santander 3:2 Real Sociedad de Fútbol | La Liga Highlights #fussball #laliga
+```
+
 **Paris FC 4-0 Angers SCO** (Ligue 1)
 
 ```
@@ -202,40 +238,4 @@ Club Atlético de Madrid 0:2 FC Bayern München | Champions League Highlights #f
 
 ```
 Manchester United FC 3:2 AS Roma | Champions League Highlights #fussball #championsleague
-```
-
-**Feyenoord Rotterdam 0-3 FC Internazionale Milano** (Champions League)
-
-```
-Feyenoord Rotterdam 0:3 FC Internazionale Milano | Champions League Highlights #fussball #championsleague
-```
-
-**LASK Linz 4-0 ŠK Slovan Bratislava** (Champions League)
-
-```
-LASK Linz 4:0 ŠK Slovan Bratislava | Champions League Highlights #fussball #championsleague
-```
-
-**PAE AEK 2-3 Real Madrid CF** (Champions League)
-
-```
-PAE AEK 2:3 Real Madrid CF | Champions League Highlights #fussball #championsleague
-```
-
-**Fenerbahçe SK 3-2 Liverpool FC** (Champions League)
-
-```
-Fenerbahçe SK 3:2 Liverpool FC | Champions League Highlights #fussball #championsleague
-```
-
-**US Sassuolo Calcio 2-4 ACF Fiorentina** (Serie A)
-
-```
-US Sassuolo Calcio 2:4 ACF Fiorentina | Serie A Highlights #fussball #seriea
-```
-
-**FC Lorient 0-2 Stade Brestois 29** (Ligue 1)
-
-```
-FC Lorient 0:2 Stade Brestois 29 | Ligue 1 Highlights #fussball #ligue1
 ```
