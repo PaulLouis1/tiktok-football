@@ -1,5 +1,23 @@
 # Captions for new drafts (newest first)
 
+**AC Monza 3-0 ACF Fiorentina** (Serie A)
+
+```
+AC Monza 3:0 ACF Fiorentina | Serie A Highlights #fussball #seriea
+```
+
+**Levante UD 1-1 Elche CF** (La Liga)
+
+```
+Levante UD 1:1 Elche CF | La Liga Highlights #fussball #laliga
+```
+
+**Brentford FC 4-0 Everton FC** (Premier League)
+
+```
+Brentford FC 4:0 Everton FC | Premier League Highlights #fussball #premierleague
+```
+
 **Juventus FC 4-0 Venezia FC** (Serie A)
 
 ```
@@ -220,22 +238,4 @@ Everton FC 3:1 Coventry City FC | Premier League Highlights #fussball #premierle
 
 ```
 Villarreal CF 0:6 Paris Saint-Germain FC | Champions League Highlights #fussball #championsleague
-```
-
-**FC Barcelona 3-0 Aston Villa FC** (Champions League)
-
-```
-FC Barcelona 3:0 Aston Villa FC | Champions League Highlights #fussball #championsleague
-```
-
-**Club Atlético de Madrid 0-2 FC Bayern München** (Champions League)
-
-```
-Club Atlético de Madrid 0:2 FC Bayern München | Champions League Highlights #fussball #championsleague
-```
-
-**Manchester United FC 3-2 AS Roma** (Champions League)
-
-```
-Manchester United FC 3:2 AS Roma | Champions League Highlights #fussball #championsleague
 ```

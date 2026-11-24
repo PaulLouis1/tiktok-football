@@ -1,7 +1,11 @@
 3 neue beendete Spiele (offen insgesamt: 3); erledigt: 106
 IDs: [558519, 564757, 560649]
-Fehler bei Spiel 558519: football-data.org antwortete 404: {"message":"The resource you are looking for does not exist.","error":404}
+Spiel 558519: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/SA_558519.mp4 (21.1 s)
+hochgeladen: v_inbox_file~v2.7711811975977912342 SEND_TO_USER_INBOX
 Spiel 564757: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564757.mp4 (21.0 s)
-Fehler bei Spiel 564757: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261124065536CD4009737F0A56145005"}}
-TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564757.mp4 (21.3 s)
+hochgeladen: v_inbox_file~v2.7711812339196299266 SEND_TO_USER_INBOX
+Spiel 560649: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560649.mp4 (20.7 s)
+hochgeladen: v_inbox_file~v2.7711812489075509270 SEND_TO_USER_INBOX
