@@ -1,5 +1,53 @@
 # Captions for new drafts (newest first)
 
+**Galatasaray SK 1-0 Aston Villa FC** (Champions League)
+
+```
+Galatasaray SK 1:0 Aston Villa FC | Champions League Highlights #fussball #championsleague
+```
+
+**FK Bodø/Glimt 1-0 LASK Linz** (Champions League)
+
+```
+FK Bodø/Glimt 1:0 LASK Linz | Champions League Highlights #fussball #championsleague
+```
+
+**Como 1907 1-0 PAE AEK** (Champions League)
+
+```
+Como 1907 1:0 PAE AEK | Champions League Highlights #fussball #championsleague
+```
+
+**ŠK Slovan Bratislava 0-2 Real Betis Balompié** (Champions League)
+
+```
+ŠK Slovan Bratislava 0:2 Real Betis Balompié | Champions League Highlights #fussball #championsleague
+```
+
+**Real Madrid CF 5-1 PSV** (Champions League)
+
+```
+Real Madrid CF 5:1 PSV | Champions League Highlights #fussball #championsleague
+```
+
+**RB Leipzig 3-1 Racing Club de Lens** (Champions League)
+
+```
+RB Leipzig 3:1 Racing Club de Lens | Champions League Highlights #fussball #championsleague
+```
+
+**Manchester City FC 2-2 SSC Napoli** (Champions League)
+
+```
+Manchester City FC 2:2 SSC Napoli | Champions League Highlights #fussball #championsleague
+```
+
+**Feyenoord Rotterdam 0-1 FC Porto** (Champions League)
+
+```
+Feyenoord Rotterdam 0:1 FC Porto | Champions League Highlights #fussball #championsleague
+```
+
 **AC Monza 3-0 ACF Fiorentina** (Serie A)
 
 ```
@@ -190,52 +238,4 @@ Torino FC 1:1 US Lecce | Serie A Highlights #fussball #seriea
 
 ```
 Cagliari Calcio 1:0 Frosinone Calcio | Serie A Highlights #fussball #seriea
-```
-
-**1. FSV Mainz 05 1-2 FC Bayern München** (Bundesliga)
-
-```
-1. FSV Mainz 05 1:2 FC Bayern München | Bundesliga Highlights #fussball #bundesliga
-```
-
-**Leeds United FC 1-0 Tottenham Hotspur FC** (Premier League)
-
-```
-Leeds United FC 1:0 Tottenham Hotspur FC | Premier League Highlights #fussball #premierleague
-```
-
-**Málaga CF 1-2 Real Racing Club de Santander** (La Liga)
-
-```
-Málaga CF 1:2 Real Racing Club de Santander | La Liga Highlights #fussball #laliga
-```
-
-**Hamburger SV 3-1 Borussia Mönchengladbach** (Bundesliga)
-
-```
-Hamburger SV 3:1 Borussia Mönchengladbach | Bundesliga Highlights #fussball #bundesliga
-```
-
-**Venezia FC 2-1 Udinese Calcio** (Serie A)
-
-```
-Venezia FC 2:1 Udinese Calcio | Serie A Highlights #fussball #seriea
-```
-
-**Toulouse FC 3-1 RC Strasbourg Alsace** (Ligue 1)
-
-```
-Toulouse FC 3:1 RC Strasbourg Alsace | Ligue 1 Highlights #fussball #ligue1
-```
-
-**Everton FC 3-1 Coventry City FC** (Premier League)
-
-```
-Everton FC 3:1 Coventry City FC | Premier League Highlights #fussball #premierleague
-```
-
-**Villarreal CF 0-6 Paris Saint-Germain FC** (Champions League)
-
-```
-Villarreal CF 0:6 Paris Saint-Germain FC | Champions League Highlights #fussball #championsleague
 ```
