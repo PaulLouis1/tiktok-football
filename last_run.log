@@ -1,6 +1,6 @@
-1 neue beendete Spiele (offen insgesamt: 1); erledigt: 117
-IDs: [575399]
+10 neue beendete Spiele (offen insgesamt: 10); erledigt: 117
+IDs: [575399, 575404, 575405, 575406, 575412, 575408, 575410, 575411, 575407, 575409]
 Spiel 575399: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575399.mp4 (11.8 s)
-Fehler bei Spiel 575399: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"2026112512382881B9F1620774D85DE65F"}}
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575399.mp4 (11.4 s)
+Fehler bei Spiel 575399: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611252225511DBF8634379004A438E8"}}
 TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.
