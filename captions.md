@@ -1,5 +1,35 @@
 # Captions for new drafts (newest first)
 
+**SK Slavia Praha 0-1 Villarreal CF** (Champions League)
+
+```
+SK Slavia Praha 0:1 Villarreal CF | Champions League Highlights #fussball #championsleague
+```
+
+**Lille OSC 2-1 FC Bayern München** (Champions League)
+
+```
+Lille OSC 2:1 FC Bayern München | Champions League Highlights #fussball #championsleague
+```
+
+**FK Shakhtar Donetsk 0-1 Fenerbahçe SK** (Champions League)
+
+```
+FK Shakhtar Donetsk 0:1 Fenerbahçe SK | Champions League Highlights #fussball #championsleague
+```
+
+**Paris Saint-Germain FC 2-2 AS Roma** (Champions League)
+
+```
+Paris Saint-Germain FC 2:2 AS Roma | Champions League Highlights #fussball #championsleague
+```
+
+**Sporting Clube de Portugal 2-2 Manchester United FC** (Champions League)
+
+```
+Sporting Clube de Portugal 2:2 Manchester United FC | Champions League Highlights #fussball #championsleague
+```
+
 **Galatasaray SK 1-0 Aston Villa FC** (Champions League)
 
 ```
@@ -208,34 +238,4 @@ VfB Stuttgart 1:0 SV Werder Bremen | Bundesliga Highlights #fussball #bundesliga
 
 ```
 CA Osasuna 1:1 Athletic Club | La Liga Highlights #fussball #laliga
-```
-
-**Nottingham Forest FC 3-1 Manchester City FC** (Premier League)
-
-```
-Nottingham Forest FC 3:1 Manchester City FC | Premier League Highlights #fussball #premierleague
-```
-
-**AJ Auxerre 0-1 Paris FC** (Ligue 1)
-
-```
-AJ Auxerre 0:1 Paris FC | Ligue 1 Highlights #fussball #ligue1
-```
-
-**AS Roma 3-0 US Sassuolo Calcio** (Serie A)
-
-```
-AS Roma 3:0 US Sassuolo Calcio | Serie A Highlights #fussball #seriea
-```
-
-**Torino FC 1-1 US Lecce** (Serie A)
-
-```
-Torino FC 1:1 US Lecce | Serie A Highlights #fussball #seriea
-```
-
-**Cagliari Calcio 1-0 Frosinone Calcio** (Serie A)
-
-```
-Cagliari Calcio 1:0 Frosinone Calcio | Serie A Highlights #fussball #seriea
 ```
