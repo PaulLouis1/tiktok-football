@@ -1,28 +1,6 @@
-9 neue beendete Spiele (offen insgesamt: 9); erledigt: 117
-IDs: [575404, 575405, 575410, 575406, 575412, 575408, 575411, 575407, 575409]
+4 neue beendete Spiele (offen insgesamt: 4); erledigt: 122
+IDs: [575404, 575406, 575409, 575407]
 Spiel 575404: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575404.mp4 (11.7 s)
-Fehler bei Spiel 575404: 404 Client Error: Not Found for url: https://open-upload-i18n.tiktokapis.com/upload?upload_id=7712329249717422102&upload_token=d8a40a71-9ca4-6c68-72de-5a227f3bba62
-Spiel 575405: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575405.mp4 (13.7 s)
-letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":3943288},"error":{"code":"ok","message":"","log_id":"20261126042224BC64D934354828EFFC0E"}}
-hochgeladen: v_inbox_file~v2.7712329726043621399 TIMEOUT
-Spiel 575410: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575410.mp4 (11.3 s)
-hochgeladen: v_inbox_file~v2.7712330202973653014 SEND_TO_USER_INBOX
-Spiel 575406: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575406.mp4 (12.4 s)
-Fehler bei Spiel 575406: 404 Client Error: Not Found for url: https://open-upload-i18n.tiktokapis.com/upload?upload_id=7712330333756180502&upload_token=2055e29f-1301-8d44-7160-fcc468c5cd07
-Spiel 575412: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575412.mp4 (12.6 s)
-hochgeladen: v_inbox_file~v2.7712330226461739030 SEND_TO_USER_INBOX
-Spiel 575408: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575408.mp4 (12.5 s)
-hochgeladen: v_inbox_file~v2.7712330333756246038 SEND_TO_USER_INBOX
-Spiel 575411: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575411.mp4 (12.5 s)
-hochgeladen: v_inbox_file~v2.7712330333756278806 SEND_TO_USER_INBOX
-Spiel 575407: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575407.mp4 (11.5 s)
-Fehler bei Spiel 575407: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261126042450271597FB3C1DB2EE7285"}}
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575404.mp4 (11.8 s)
+Fehler bei Spiel 575404: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"202611261420311086043E4CE6CE066980"}}
 TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.
