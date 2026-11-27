@@ -1,5 +1,29 @@
 # Captions for new drafts (newest first)
 
+**SV Werder Bremen 3-3 Borussia Mönchengladbach** (Bundesliga)
+
+```
+SV Werder Bremen 3:3 Borussia Mönchengladbach | Bundesliga Highlights #fussball #bundesliga
+```
+
+**Stade Brestois 29 1-0 Paris FC** (Ligue 1)
+
+```
+Stade Brestois 29 1:0 Paris FC | Ligue 1 Highlights #fussball #ligue1
+```
+
+**Levante UD 1-3 Real Racing Club de Santander** (La Liga)
+
+```
+Levante UD 1:3 Real Racing Club de Santander | La Liga Highlights #fussball #laliga
+```
+
+**Nottingham Forest FC 3-2 Chelsea FC** (Premier League)
+
+```
+Nottingham Forest FC 3:2 Chelsea FC | Premier League Highlights #fussball #premierleague
+```
+
 **SK Slavia Praha 0-1 Villarreal CF** (Champions League)
 
 ```
@@ -214,28 +238,4 @@ SC Paderborn 07 2:2 Eintracht Frankfurt | Bundesliga Highlights #fussball #bunde
 
 ```
 Fulham FC 1:1 Newcastle United FC | Premier League Highlights #fussball #premierleague
-```
-
-**Arsenal FC 1-0 Hull City AFC** (Premier League)
-
-```
-Arsenal FC 1:0 Hull City AFC | Premier League Highlights #fussball #premierleague
-```
-
-**Parma Calcio 1913 1-2 Bologna FC 1909** (Serie A)
-
-```
-Parma Calcio 1913 1:2 Bologna FC 1909 | Serie A Highlights #fussball #seriea
-```
-
-**VfB Stuttgart 1-0 SV Werder Bremen** (Bundesliga)
-
-```
-VfB Stuttgart 1:0 SV Werder Bremen | Bundesliga Highlights #fussball #bundesliga
-```
-
-**CA Osasuna 1-1 Athletic Club** (La Liga)
-
-```
-CA Osasuna 1:1 Athletic Club | La Liga Highlights #fussball #laliga
 ```

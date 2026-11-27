@@ -1,6 +1,16 @@
-4 neue beendete Spiele (offen insgesamt: 4); erledigt: 122
-IDs: [575404, 575409, 575407, 575406]
-Spiel 575404: keine Tordaten, es wird ein Video ohne Tore erzeugt
-gerendert: /home/runner/work/tiktok-football/tiktok-football/output/CL_575404.mp4 (11.9 s)
-Fehler bei Spiel 575404: 400 post/publish/inbox/video/init/: {"error":{"code":"spam_risk_too_many_pending_share","message":"spam_risk_too_many_pending_share","log_id":"20261126231602132D4AFBA72539E68F8B"}}
-TikTok-Limit für offene Entwürfe erreicht; weitere Spiele beim nächsten Lauf.
+5 neue beendete Spiele (offen insgesamt: 5); erledigt: 122
+IDs: [565869, 558515, 559616, 564765, 560658]
+Spiel 565869: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/BL1_565869.mp4 (22.4 s)
+hochgeladen: v_inbox_file~v2.7712996265159608342 SEND_TO_USER_INBOX
+Spiel 558515: 0:0, übersprungen
+Spiel 559616: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/FL1_559616.mp4 (21.7 s)
+hochgeladen: v_inbox_file~v2.7713000615047251990 SEND_TO_USER_INBOX
+Spiel 564765: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PD_564765.mp4 (20.7 s)
+hochgeladen: v_inbox_file~v2.7713000615047350294 SEND_TO_USER_INBOX
+Spiel 560658: keine Tordaten, es wird ein Video ohne Tore erzeugt
+gerendert: /home/runner/work/tiktok-football/tiktok-football/output/PL_560658.mp4 (21.2 s)
+letzte Statusantwort: {"data":{"status":"PROCESSING_UPLOAD","uploaded_bytes":6058686},"error":{"code":"ok","message":"","log_id":"20261127234621C49DD1E185855B1E8057"}}
+hochgeladen: v_inbox_file~v2.7713000586832513047 TIMEOUT
