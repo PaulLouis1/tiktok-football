@@ -1,5 +1,11 @@
 # Captions for new drafts (newest first)
 
+**Real Betis Balompié 0-1 Rayo Vallecano de Madrid** (La Liga)
+
+```
+Real Betis Balompié 0:1 Rayo Vallecano de Madrid | La Liga Highlights #fussball #laliga
+```
+
 **SV Werder Bremen 3-3 Borussia Mönchengladbach** (Bundesliga)
 
 ```
@@ -232,10 +238,4 @@ Borussia Dortmund 2:1 SV 07 Elversberg | Bundesliga Highlights #fussball #bundes
 
 ```
 SC Paderborn 07 2:2 Eintracht Frankfurt | Bundesliga Highlights #fussball #bundesliga
-```
-
-**Fulham FC 1-1 Newcastle United FC** (Premier League)
-
-```
-Fulham FC 1:1 Newcastle United FC | Premier League Highlights #fussball #premierleague
 ```
